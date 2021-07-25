@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+          text-align: left;
+        }
+        #t01 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t02 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t03 {
+          width: 60%;    
+          font-family: calibri;
+          background-color: #46B053;
+          color: White;
+          font-size:80%
+        }
+        
+        .square {
+          position: relative;
+          height: 30px;
+          width: 99.5%;
+          left: 0%;
+          top: 0px;
+          font-family: calibri;
+          font-size: 115%;
+          background-color: #46B053;
+          text-align:center;
+          border-style: solid;
+          border-color: Black;
+          color: White;
+        }
+
+        .warning {
+          background-color: #EDEDED;
+          border-left: 6px solid #a8a8a8;
+          width: 100%;    
+          height: 110px;
+          font-family: calibri;
+        }
+
+        .content {
+          position: absolute;
+          bottom: 0;
+          background: rgb(255, 0, 0); 
+          background: rgb(255, 0, 0); 
+          color: #f1f1f1;
+          width: 99%;
+          padding: 50px;
+        }
+      </style>
+    </head>
+    <body>
+    	<table id='t01'>
+        	<tr>
+              <th>ORDEN DE SERVICIO<input type='image' src='' alt='Submit' width='160px' height='60px'></th>
+              <th><strong  style='position:relative;top:-20px;left:30px'>CORRELATIVO</strong><strong  style='position:relative;top:0px;left:-20px;color:red;'>AVSEC</strong><strong style='position:relative;top:15px;left:-37px;color:red'>2</strong></th>
+            </tr>
+        </table>
+		<table id='t02'>    
+            <tr>
+              <td>No. VUELO</td>
+              <td>TIPO AERONAVE</td>
+              <td>MATRICULA</td>
+              <td>CLIENTE</td>
+              <td>FECHA</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+        </table>
+		<table id='t01'>
+            <div class='content'>
+              <h1>ANULADO</h1>
+              <p>Numero de orden: "&CancelPopupInput.Text&"</p>
+          </div>
+          <div class='square'><strong>SEGURIDAD</strong></div>
+        	<tr id='t03'>
+              <td>CODIGO</td>
+              <td>SERVICIO BRINDADO</td>
+              <td>CANTIDAD SERVICIO</td>
+              <td>HORA INICIO</td>
+              <td>HORA FINAL</td>
+              <td>HORAS TOTAL HOMBRE</td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>62</td>
+              <td>COURIER</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>63</td>
+              <td>CUSTODIA DE AERONAVE</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>64</td>
+              <td>CUSTODIA DE CARGA ENTRANTE</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>65</td>
+              <td>CUSTODIA DE CARGA SALIENTE</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>66</td>
+              <td>CUSTODIA DE EQUIPAJE</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>67</td>
+              <td>CUSTODIO DE CARGA EN PLATAFORMA</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>68</td>
+              <td>CUSTODIO DE PASAJEROS INADMISIBLE</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>125</td>
+              <td>DIRIGIR PASAJERO</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>70</td>
+              <td>ENTREVISTADORES</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>73</td>
+              <td>MMTD EN MOSTRADOR</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>74</td>
+              <td>MMTD EN SALA</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>75</td>
+              <td>OBSERVER CABIN SEARCH</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>76</td>
+              <td>OBSERVER COCINAS</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>77</td>
+              <td>OBSERVER PLATAFORMA</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>78</td>
+              <td>OBSERVER RAYOS-X</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>79</td>
+              <td>PASAJEROS NO VIDENTES</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>82</td>
+              <td>STICKER RAYOS-X</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>100</td>
+              <td>SERVICIOS AVSEC TRANSITO</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>123</td>
+              <td>SERVICIOS AVSEC RECEPCION</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>SERVICIOS AVSEC DESPACHO</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style='background-color:#BFF0C4;'>
+              <td>23</td>
+              <td>REINGRESO DE CARGA</td>
+             <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+        </table> 
+	</body>

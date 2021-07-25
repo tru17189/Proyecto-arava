@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <style>
+      table {
+        position: relative;
+        left: 5%;
+        width:90%;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #t01 tr:nth-child(even) {
+        background-color: #FED0B2;
+      }
+      #t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      #t01 th {
+        background-color: #EB7322;
+        color: white;
+      }
+      .title {
+        position: relative;
+        left: 5%;
+        width: 89.5%;
+        background-color: #EB7322;
+        color: white;
+        border: 3px solid black;
+        border-collapse: collapse;
+        font-family: Impact;
+        font-size: 150%;
+      }
+      .warning {
+        position: relative;
+        left: 5%;
+        background-color: #EDEDED;
+        border: 2px solid black;
+        width: 89.5%;    
+        height: 110px;
+        font-family: Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr style='background-color:#C5C4C4;'>
+        <th>ORDEN DE SERVICIO
+          <p>
+            <input type='image' src='orange_laats_logo_tiny.png'>
+          </p>
+        </th>
+        <th>
+          <strong  style='position:relative;top:-20px;left:30px'>CORRELATIVO</strong>
+          <strong  style='position:relative;top:0px;left:-20px;color:red;'>CGO</strong>
+          <strong style='position:relative;top:15px;left:-37px;color:red'>2</strong>
+        </th>
+      </tr>
+    </table>
+	  <table id='t01'> 
+      <tr>
+        <th>NOMBRE DEL AGENTE	</th>
+        <th>No. VUELO</th>
+        <th>TIPO AERONAVE</th>
+        <th>MATRICULA</th>
+        <th>CLIENTE</th>
+        <th>FECHA</th>
+      </tr>
+      <tr style='background-color:white;'>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+		<table id='t01'>
+      <div class='title'>AGENTES</div>
+      <tr>
+        <td>CODIGO</td>
+        <td>SERVICIO</td>
+        <td>ALQUILER</td>
+        <td>SERVICIO BRINDADO</td>
+        <td>CANTIDAD</td>
+        <td>HORA INICIO</td>
+        <td>HORA FINAL</td>
+        <td>AT</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>AGENTE DE LIMPIEZA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>AGENTE HUB</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>AGENTE RAMPA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>127</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>RECEPTOR</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>128</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>OPERADOR</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>139</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>AGENTE IMPORTACION</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table id='t01'>
+      <div class='title'>SERVICIOS DE ATENCION</div>
+      <tr>
+        <td>CODIGO</td>
+        <td>SERVICIO</td>
+        <td>ALQUILER</td>
+        <td>SERVICIO BRINDADO</td>
+        <td>CANTIDAD</td>
+        <td>HORA INICIO</td>
+        <td>HORA FINAL</td>
+        <td>AT</td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ATENCION DE VUELO DESPACHO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ATENCION DE VUELO FERRY</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>008</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ATENCION DE VUELO RECEPCION</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>009</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ATENCION DE VUELO TRANSITO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>056</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ATENCION DE AVIONETA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table id='t01'>
+      <div class='title'>SERVICIOS ADICIONALES</div>
+      <tr>
+        <td>CODIGO</td>
+        <td>SERVICIO</td>
+        <td>ALQUILER</td>
+        <td>SERVICIO BRINDADO</td>
+        <td>CANTIDAD</td>
+        <td>HORA INICIO</td>
+        <td>HORA FINAL</td>
+        <td>AT</td>
+      </tr>
+      <tr>
+        <td>021</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>REGRESO A POSICION CON CAMBIO FISICO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>022</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>REGRESO A POSICION SIN CAMBIO FISICO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>023</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>REINGRESO DE CARGA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>024</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>REMOLQUE DE AERONAVE</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>025</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>REPESO DE CARGA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>057</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>SERVICIO DE BODEGA DE EXPORTACION</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>026</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>SERVICIO DE IMPORTACION / DESPALETIZADO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>029</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>TRASLADO DE CARGA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>030</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>TRASLADO DE COMAT</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>032</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>TRASLADO DE EQUIPO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>140</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>TRANSFERENCIA DE CARGA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>  
+    <table id='t01'>
+      <div class='title'>EQUIPOS</div>
+      <tr >
+        <td>CODIGO</td>
+        <td>SERVICIO</td>
+        <td>ALQUILER</td>
+        <td>SERVICIO BRINDADO</td>
+        <td>CANTIDAD</td>
+        <td>HORA INICIO</td>
+        <td>HORA FINAL</td>
+        <td>AT</td>
+      </tr>
+      <tr>
+        <td>035</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>AGUA POTABLE</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>036</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>DRENADO</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>037</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ESCALERA MOTORIZADA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>038</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>ESCALERA NO MOTORIZADA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>039</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>FAJA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>040</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>LIFTER</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>058</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>LOADER LOWER DECK</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>059</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>LOADER MAIN DECK</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>041</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>MONTACARGAS GRANDE >2.5T</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>042</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>MONTACARGAS PEQUEÑO <=2.5T</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>044</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>PLANTA ELECTRICA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>045</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>PLANTA NEUMATICA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>046</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>PUSH BACK</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>047</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>TRACTOR</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>048</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>BARRA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>050</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>CARRETA</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>051</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>DOLLY</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>060</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>DOLLY 20 PIES</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>053</td>
+        <td><input type='checkbox'></td>
+        <td><input type='checkbox'></td>
+        <td>PALLET</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table id='t01'>
+      <tr>
+        <td style='background-color:#C5C4C4; width: 25%;'>ITINERARIO DE ARRIBO DEL VUELO</td>
+        <td style='background-color:white;'></td>
+        <td style='background-color:#C5C4C4; width: 25%;'>ITINERARIO DE SALIDA DEL VUELO</td>
+        <td style='background-color:white;'></td>
+      </tr>
+      <tr>
+        <td style='background-color:#C5C4C4;'>HORA REAL DE ARRIBO DEL VUELO</td>
+        <td style='background-color:white;'></td>
+        <td style='background-color:#C5C4C4;'>HORA REAL DE SALIDA DEL VUELO</td>
+        <td style='background-color:white;'></td>
+      </tr>
+    </table>
+    <table id='t01'>
+      <tr>
+        <td style='background-color:#C5C4C4; width: 25%;'>EL VUELO FUE CANCELADO?</td>
+        <td>SI</td>
+        <td>NO</td>
+        <td style='background-color:#C5C4C4; width: 25%;'>FECHA Y HORA DE CANCELACION DE VUELO</td>
+        <td></td>
+      </tr>
+    </table>
+    <div class='warning'><strong>OBSERVACIONES: </strong></div>
+    <table id='t01'>
+      <tr>
+        <td>
+          <p>
+            <img src=''>________________________________NOMBRE Y FIRMA COLABORADOR DE LAATS QUIEN BRINDA EL SERVICIO
+          </p>
+        </td>
+        <td>
+          <p>
+            <img src=''>________________________________NOMBRE Y FIRMA DE CLIENTE QUE AUTORIZA
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>

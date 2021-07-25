@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+          text-align: left;
+        }
+        #t01 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t02 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t03 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: #dc9617;
+          color: White;
+          font-size:80%
+        }
+
+        .warning {
+          background-color: #ffffcc;
+          border-left: 6px solid #ffeb3b;
+          width: 99%;    
+          height: 100px;
+          font-family: calibri;
+        }
+        .warning2{
+           background-color: #ccccff; 
+           border-left: 6px solid #3b4fff;
+           width: 99%;    
+           height: 40px;
+           font-family: calibri;
+        }
+        .warning3{
+           background-color: #ffe6cc; 
+           border-left: 6px solid #ff893b;
+           width: 99%;    
+           height: 40px;
+           font-family: calibri;
+        }
+        
+        .square {
+          position: relative;
+          height: 30px;
+          width: 100%;
+          left: 0%;
+          top: 0px;
+          font-family: calibri;
+          font-size: 100%;
+          background-color: #dc9617;
+          text-align:center;
+          border-style: solid;
+          border-color: Black;
+          color: White;
+        }
+      </style>
+    </head>
+	<body>
+    	<table id='t01'>
+        	<tr>
+              <th><input type='image' src="& JSON(Logo_1.Image, JSONFormat.IncludeBinaryData) &" alt='Submit' width='200px' height='60px'><p style='font-size: 200%;'>Invoice</p></th>
+              <th>SUPERVISOR RESPONSABLE (SUPERVISOR'S SIGNATURE )</th> 
+              <th><strong  style='position:relative;top:-20px;left:30px'>CORRELATIVO</strong><strong  style='position:relative;top:0px;left:-20px;color:red;'>FBO</strong><strong style='position:relative;top:15px;left:-37px;color:red'>" &WO.Text& "</strong></th>
+            </tr>
+        </table>    
+        <table id='t02'>    
+            <tr>
+              <td>No. VUELO (FLIGHT No.)</td>
+              <td>TIPO AERONAVE (AC MODEL)</td>
+              <td>MATRICULA (REGISTRATION NUMBER)</td>
+              <td>CLIENTE (CUSTOMER)</td>
+              <td>FECHA (DATE)</td>
+            </tr>
+			<tr>
+              <td>"& MATRICULA &"</td>
+              <td>"& TIPOAERONAVE &"</td>
+              <td>"& MATRICULA &"</td>
+              <td>"& CLIENTE &"</td>
+              <td>"& DatePicker1 &"</td>
+            </tr>
+        </table>
+        <div class='square'><strong>AIRPORT FEES</strong></div>
+        <table id='t02'>
+        	<tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>164</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Custom Clearance - CIQ (Customs Immigration Quarantine)</td>
+              <td>"& Quantity164 &"</td>
+              <td>"&Price164&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>165</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Landing Charges</td>
+              <td>"& Quantity165 & "</td>
+              <td>"&Price165&"</td>
+              <td></td>
+              <td><input value="& DocNumber165 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>166</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Parking Charges Turn Around</td>
+              <td>"& Quantity166 & "</td>
+              <td>"&Price166&"</td>
+              <td></td>
+              <td><input value="& DocNumber166 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>167</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Parking Charges Overnight</td>
+              <td>"& Quantity167 & "</td>
+              <td>"&Price167&"</td>
+              <td></td>
+              <td><input value="& DocNumber167 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>168</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Passenger Charges</td>
+              <td>"& Quantity168 & "</td>
+              <td>"&Price168&"</td>
+              <td></td>
+              <td><input value="& DocNumber168 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>169</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Terminal Navigations Charges</td>
+              <td>"& Quantity169 & "</td>
+              <td>"&Price169&"</td>
+              <td></td>
+              <td><input value="& DocNumber169 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>170</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Runway Lighting Fee</td>
+              <td>"& Quantity170 & "</td>
+              <td>"&Price170&"</td>
+              <td></td>
+              <td><input value="& DocNumber170 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>171</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Incinerator Fee</td>
+              <td>"& Quantity171 & "</td>
+              <td>"&Price171&"</td>
+              <td></td>
+              <td><input value="& DocNumber171 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>172</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Quarantine services (Spraying)</td>
+              <td>"& Quantity172 & "</td>
+              <td>"&Price172&"</td>
+              <td></td>
+              <td><input value="& DocNumber172 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>173</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Quarantine services (Inspecction)</td>
+              <td>"& Quantity173 & "</td>
+              <td>"&Price173&"</td>
+              <td></td>
+              <td><input value="& DocNumber173 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+        </table>
+        <div class='square'><strong>GROUND SUPPORT FEES</strong></div>
+        <table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>174</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Catering</td>
+              <td>"& Quantity174 & "</td>
+              <td>"&Price174&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>175</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Cleaning - External / Internal</td>
+              <td>"& Quantity175 & "</td>
+              <td>"&Price175&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>176</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Hotel -  Setup</td>
+              <td>"& Quantity176 & "</td>
+              <td>"&Price176&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>177</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Landing Permit - Arrangement</td>
+              <td>"& Quantity177 & "</td>
+              <td>"&Price177&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>178</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Overflight Permit - Arrangement</td>
+              <td>"& Quantity178 & "</td>
+              <td>"&Price178&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>179</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Security - Aircraft</td>
+              <td>"& Quantity179 &"</td>
+              <td>"&Price179&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>180</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Security - Screening</td>
+              <td>"& Quantity180 &"</td>
+              <td>"&Price180&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>181</td>
+              <td><input type='checkbox' "& Rental181 &"></td>
+              <td>Hangar Fees</td>
+              <td>"& Quantity181 &"</td>
+              <td>"&Price181&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>182</td>
+              <td><input type='checkbox' "& Rental182 &"></td>
+              <td>VIP Lounge - SMALL service</td>
+              <td>"& Quantity182 &"</td>
+              <td>"&Price182&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>183</td>
+              <td><input type='checkbox' "& Rental183 &"></td>
+              <td>VIP Lounge MEDIUM Service</td>
+              <td>"& Quantity183 &"</td>
+              <td>"&Price183&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>184</td>
+              <td><input type='checkbox' "& Rental184 &"></td>
+              <td>VIP Lounge LARGE Service</td>
+              <td>"& Quantity184 &"</td>
+              <td>"&Price184&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>185</td>
+              <td><input type='checkbox' "& Rental185 &"></td>
+              <td>Visa Arrangement</td>
+              <td>"& Quantity185 &"</td>
+              <td>"&Price185&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>186</td>
+              <td><input type='checkbox' "& Rental186 &"></td>
+              <td>Transportation</td>
+              <td>"& Quantity186 &"</td>
+              <td>"&Price186&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At186 &"</td>
+            </tr>
+        </table>
+        <div class='square'><strong>RAMP SERVICE AND EQUIPMENT FEES</strong></div>
+        <table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+             <tr>
+              <td>187</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Baggage Handling, Clearance and Equipment</td>
+              <td>"& Quantity187 &"</td>
+              <td>"&Price187&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>188</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Fumigation</td>
+              <td>"& Quantity188 &"</td>
+              <td>"&Price188&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>189</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Nitrogen</td>
+              <td>"& Quantity189 &"</td>
+              <td>"&Price189&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>190</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Oxygen</td>
+              <td>"& Quantity190 &"</td>
+              <td>"&Price190&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>191</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Marshalling</td>
+              <td>"& Quantity191 &"</td>
+              <td>"&Price191&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td >"& At191 &"</td>
+            </tr>
+            <tr>
+              <td>192</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Fuel</td>
+              <td>"& Quantity192 &"</td>
+              <td>"&Price192&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At192 &"</td>
+            </tr>
+            <tr>
+              <td>193</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Ramp Transportation</td>
+              <td>"& Quantity193 &"</td>
+              <td>"&Price193&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At193 &"</td>
+            </tr>
+            <tr>
+              <td>194</td>
+              <td><input type='checkbox' "& Rental194 &"></td>
+              <td>Air Start</td>
+              <td>"& Quantity194 &"</td>
+              <td>"&Price194&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At194 &"</td>
+            </tr>
+            <tr>
+              <td>195</td>
+              <td><input type='checkbox' "& Rental195 &"></td>
+              <td>Aircraft Heating / Cooling</td>
+              <td>"& Quantity195 &"</td>
+              <td>"&Price195&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td >"& At195 &"</td>
+            </tr>
+            <tr>
+              <td>196</td>
+              <td><input type='checkbox' "& Rental196 &"></td>
+              <td>Aircraft Towing</td>
+              <td>"& Quantity196 &"</td>
+              <td>"&Price196&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td >"& At196 &"</td>
+            </tr>
+            <tr>
+              <td>197</td>
+              <td><input type='checkbox' "& Rental197 &"></td>
+              <td>Belt Loader</td>
+              <td>"& Quantity197 &"</td>
+              <td>"&Price197&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At197 &"</td>
+            </tr>
+            <tr>
+              <td>198</td>
+              <td><input type='checkbox' "& Rental198 &"></td>
+              <td>Ground Power Unit (GPU)</td>
+              <td>"& Quantity198 &"</td>
+              <td>"&Price198&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At198 &"</td>
+            </tr>
+            <tr>
+              <td>199</td>
+              <td><input type='checkbox' "& Rental199 &"></td>
+              <td>High Loader / Lift / Dollies</td>
+              <td>"& Quantity199 &"</td>
+              <td>"&Price199&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At199 &"</td>
+            </tr>
+            <tr>
+              <td>200</td>
+              <td><input type='checkbox' "& Rental200 &"></td>
+              <td>Lavatory Services</td>
+              <td>"& Quantity200 &"</td>
+              <td>"&Price200&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At200 &"</td>
+            </tr>
+            <tr>
+              <td>201</td>
+              <td><input type='checkbox' "& Rental201 &"></td>
+              <td>Potable Water Service</td>
+              <td>"& Quantity201 &"</td>
+              <td>"&Price201&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At201 &"</td>
+            </tr>
+            <tr>
+              <td>202</td>
+              <td><input type='checkbox' "& Rental202 &"></td>
+              <td>Waste Disposal And Transportation (Spraying)</td>
+              <td>"& Quantity202 &"</td>
+              <td>"&Price202&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At202 &"</td>
+            </tr>
+            <tr>
+              <td>203</td>
+              <td><input type='checkbox' "& Rental203 &"></td>
+              <td>Stairs</td>
+              <td>"& Quantity203 &"</td>
+              <td>"&Price203&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td>"& At203 &"</td>
+            </tr>
+        </Table>
+        <div class='square'><strong>HANDLING FEES</strong></div>
+        <Table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC Number</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>204</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Narrow body commercial JETS</td>
+              <td>"& Quantity204 &"</td>
+              <td>"&Price204&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>205</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Super Large And long range JETS</td>
+              <td>"& Quantity205 &"</td>
+              <td>"&Price205&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>206</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Large bussines JET</td>
+              <td>"& Quantity206 &"</td>
+              <td>"&Price206&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>207</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Super midsize JET</td>
+              <td>"& Quantity207 &"</td>
+              <td>"&Price207&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>208</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Mid size JETS </td>
+              <td>"& Quantity208 &"</td>
+              <td>"&Price208&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>209</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Light bussines jets</td>
+              <td>"& Quantity209 &"</td>
+              <td>"&Price209&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>210</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Large  comercial turboprop</td>
+              <td>"& Quantity210 &"</td>
+              <td>"&Price210&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>211</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Medium comercial turbo prop </td>
+              <td>"& Quantity211 &"</td>
+              <td>"&Price211&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>212</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Twin turbo prop</td>
+              <td>"& Quantity212 &"</td>
+              <td>"&Price212&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>213</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Single engine turbo prop</td>
+              <td>"& Quantity213 &"</td>
+              <td>"&Price213&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>214</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Twin Piston Engine</td>
+              <td>"& Quantity214 &"</td>
+              <td>"&Price214&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>215</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Singles Piston Engine</td>
+              <td>"& Quantity215 &"</td>
+              <td>"&Price215&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>216</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling - After Hours Surcharge</td>
+              <td>"& Quantity216 &"</td>
+              <td>"&Price216&"</td>4
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>217</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Overnight</td>
+              <td>"& Quantity217 &"</td>
+              <td>"&Price217&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617' ></td>
+            </tr>
+            <tr>
+              <td>218</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Tech Stop / Fuel </td>
+              <td>"& Quantity218 &"</td>
+              <td>"&Price218&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>219</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Tech Stop / Fuel </td>
+              <td>"& Quantity219 &"</td>
+              <td>"&Price219&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>220</td>
+              <td><input type='checkbox' "& Rental220 &"></td>
+              <td>Helicopter Rental</td>
+              <td>"& Quantity220 &"</td>
+              <td>"&Price220&"</td>
+              <td></td>
+              <td><input value="& docnumber220 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>221</td>
+              <td><input type='checkbox' "& Rental221 &"></td>
+              <td>Airplane Rental</td>
+              <td>"& Quantity221 &"</td>
+              <td>"&Price221&"</td>
+              <td></td>
+              <td><input value="& docnumber221 &"></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>222</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Sales / VIP LOUNGE</td>
+              <td>"& Quantity222 &"</td>
+              <td>"&Price222&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>223</td>
+              <td style='background-color:#dc9617'></td>
+              <td>COVID-19 Test</td>
+              <td>"& Quantity223 &"</td>
+              <td>"&Price223&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>224</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Ambulance Services</td>
+              <td>"& Quantity224 &"</td>
+              <td>"&Price224&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>225</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Local</td>
+              <td>"& Quantity225 &"</td>
+              <td>"&Price225&"</td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            "&AnotherServices1&"
+            "&AnotherServices2&"
+            "&AnotherServices3&"
+            "&AnotherServices4&"
+            "&AnotherServices5&"
+            "&AnotherServices6&"
+            "&AnotherServices7&"
+            "&AnotherServices8&"
+            "&AnotherServices9&"
+            "&AnotherServices10&"
+            "&AnotherServices11&"
+        </Table>
+        <div class='warning'><p><strong>OBSERVACIONES: </strong>"& notes &"</p></div>
+        <table>
+            <tr>
+                <td style='font-size: 105%; height: 90px; font-family: calibri;'><p><img src="& JSON(Sign.Image, JSONFormat.IncludeBinaryData) &"; style='width:80%;height:70%;font-size:90%;'></p><p>"&CollaboratorNameInput.Text&"____NOMBRE Y FIRMA COLABORADOR DE LAATS QUIEN BRINDA EL SERVICIO NAME AND SIGN FROM THE COLLABORATOR WHO PROVIDES THE SERVICE</p></td>
+                <td style='font-size: 105%; height: 90px; font-family: calibri;'><p><img src="& JSON(Sign2.Image, JSONFormat.IncludeBinaryData) &" style='width:70%;height:70%;font-size:90%;'></p><p>"&ClientNameInput.Text&"____NOMBRE Y FIRMA DE QUIEN RECIBE COPIA CELESTENAME AND SIGN FROM WHO WILL RECEIVE THE COPY</p></td>
+            </tr>
+        </table>
+    </body>
+</html>

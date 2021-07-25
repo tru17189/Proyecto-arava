@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <style>
+      table {
+        position: relative;
+        left: 5%;
+        width:90%;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #t01 tr:nth-child(even) {
+        background-color: #CCD7EB;
+      }
+      #t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      #t01 th {
+        background-color: #305496;
+        color: white;
+      }
+      .title {
+        position: relative;
+        left: 5%;
+        width: 89.5%;
+        background-color: #305496;
+        color: white;
+        border: 3px solid black;
+        border-collapse: collapse;
+        font-family: Impact;
+        font-size: 150%;
+      }
+      .warning {
+        position: relative;
+        left: 5%;
+        background-color: #EDEDED;
+        border: 2px solid black;
+        width: 89.5%;    
+        height: 110px;
+        font-family: Arial;
+      }
+      .content {
+          position: absolute;
+          bottom: 0;
+          background: rgb(255, 0, 0); 
+          background: rgb(255, 0, 0); 
+          color: #f1f1f1;
+          width: 100%;
+          padding: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr style='background-color:#C5C4C4;'>
+        <th>ORDEN DE SERVICIO
+          <p>
+            <input type='image' src='LOGO.png'>
+          </p>
+        </th>
+        <th>
+          <strong  style='position:relative;top:-20px;left:30px'>CORRELATIVO</strong>
+          <strong  style='position:relative;top:0px;left:-20px;color:red;'>CGO</strong>
+          <strong style='position:relative;top:15px;left:-37px;color:red'>2</strong>
+        </th>
+      </tr>
+    </table>
+	<table id='t01'> 
+      <tr>
+        <th>NOMBRE DEL AGENTE	</th>
+        <th>No. VUELO</th>
+        <th>TIPO AERONAVE</th>
+        <th>MATRICULA</th>
+        <th>CLIENTE</th>
+        <th>FECHA</th>
+      </tr>
+      <tr style='background-color:white;'>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+	<table id='t01'>
+        <div class='title'>SERVICIOS</div>
+        <tr>
+            <td>CODIGO</td>
+            <td>SERVICIO</td>
+            <td>SERVICIO BRINDADO</td>
+            <td>CANTIDAD</td>
+            <td>HORA INICIO</td>
+            <td>HORA FINAL</td>
+            <td>NUMERO DE DOCUMENTO</td>
+        </tr>
+        <tr>
+            <td>158</td>
+            <td><input type='checkbox' ></td>
+            <td>SERVICIO W&amp;B RECEPCION</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>093</td>
+            <td><input type='checkbox' ></td>
+            <td>SERVICIO W&amp;B DESPACHO</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>157</td>
+            <td><input type='checkbox' ></td>
+            <td>SERVICIO W&amp;B TRANSITO</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>   
+        </tr>
+        <tr>
+            <td>159</td>
+            <td><input type='checkbox' ></td>
+            <td>SERVICIO DE OPERACIONES RECEPCION</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>   
+        </tr>
+        <tr>
+            <td>160</td>
+            <td><input type='checkbox' ></td>
+            <td>SERVICIO DE OPERACIONES DESPACHO</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+        </tr>
+        <tr>
+            <td>094</td>
+            <td><input type='checkbox' checked></td>
+            <td>SERVICIO DE OPERACIONES TRANSITO</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+        </tr>
+        <tr>
+            <td>095</td>
+            <td><input type='checkbox' ></td>
+            <td>TRASLADO DE TRIPULACION / AERONAVE - TERMINAL &amp;#8592;&amp;#8594; TERMINAL - AERONAVE</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>       
+        </tr>
+        <tr>
+            <td>096</td>
+            <td><input type='checkbox' ></td>
+            <td>TRASLADO DE TRIPULACION / HOTEL - TERMINAL &amp;#8592;&amp;#8594; TERMINAL - HOTEL</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>     
+        </tr>
+        <tr>
+            <td>086</td>
+            <td><input type='checkbox' ></td>
+            <td>CATERING</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input value=></td>            
+        </tr>
+    </table>
+    <table id='t01'>
+        <div class='title'>INFORMACION SOBRE DEMORAS Y CANCELACIONES DE VUELO</div>
+        <tr>
+            <td style='background-color:#C5C4C4; width: 25%;'>ITINERARIO DE ARRIBO DEL VUELO</td>
+            <td style='background-color:white;'></td>
+            <td style='background-color:#C5C4C4; width: 25%;'>ITINERARIO DE SALIDA DEL VUELO</td>
+            <td style='background-color:white;'></td>
+        </tr>
+        <tr>
+            <td style='background-color:#C5C4C4;'>HORA REAL DE ARRIBO DEL VUELO</td>
+            <td style='background-color:white;'></td>
+            <td style='background-color:#C5C4C4;'>HORA REAL DE SALIDA DEL VUELO</td>
+            <td style='background-color:white;'></td>
+        </tr>
+    </table>
+    <table id='t01'>
+      <tr>
+        <td style='background-color:#C5C4C4; width: 25%;'>EL VUELO FUE CANCELADO?</td>
+        <td>SI</td>
+        <td>NO</td>
+        <td style='background-color:#C5C4C4; width: 25%;'>FECHA Y HORA DE CANCELACION DE VUELO</td>
+        <td></td>
+      </tr>
+    </table>
+    <div class='warning'><strong>OBSERVACIONES: </strong></div>
+    <table id='t01'>
+        <tr>
+            <td>
+                <p>
+                    <img src='' style='width: 25%;'>
+                    ________________________________NOMBRE Y FIRMA COLABORADOR DE LAATS QUIEN BRINDA EL SERVICIO
+                </p>
+            </td>
+            <td>
+                <p>
+                    <img src='' style='width: 25%;'>
+                    ________________________________NOMBRE Y FIRMA DE CLIENTE QUE AUTORIZA
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div class='content'>
+        <h1>ANULADO</h1>
+        <p>Numero de orden: 0</p>
+      </div>
+  </body>
