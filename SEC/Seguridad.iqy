@@ -1,0 +1,16 @@
+WEB
+1
+https://laatsnet.sharepoint.com/sites/TECNOLOGIAEINFORMACION/ERP%20LAATS/_vti_bin/owssvr.dll?XMLDATA=1&List={DCEACD30-7B6F-4B06-BF48-F02C0C2A5C2C}&View=515BE1EC-DC6F-4E16-957F-B695A58BC281&RowLimit=0&RootFolder=
+
+Selection={DCEACD30-7B6F-4B06-BF48-F02C0C2A5C2C}-515BE1EC-DC6F-4E16-957F-B695A58BC281
+EditWebPage=
+Formatting=None
+PreFormattedTextToColumns=True
+ConsecutiveDelimitersAsOne=True
+SingleBlockTextImport=False
+DisableDateRecognition=False
+DisableRedirections=False
+SharePointApplication=https://laatsnet.sharepoint.com/sites/TECNOLOGIAEINFORMACION/ERP%20LAATS/_vti_bin
+SharePointListView=515BE1EC-DC6F-4E16-957F-B695A58BC281
+SharePointListName={DCEACD30-7B6F-4B06-BF48-F02C0C2A5C2C}
+RootFolder=
