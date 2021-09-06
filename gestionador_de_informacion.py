@@ -17,7 +17,7 @@ for u in listaMedia:
     for i in lista:
         if u == i:
             contador += 1
-        if contador >= 1:
+        if contador >= 2:
             if " " in u:
                 u = u.replace(" ", "")
             if u not in listaFinal:
