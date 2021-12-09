@@ -1,0 +1,787 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+          text-align: left;
+        }
+        #t01 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t02 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: white;
+          font-size:80%
+        }
+        #t03 {
+          width: 100%;    
+          font-family: calibri;
+          background-color: #dc9617;
+          color: White;
+          font-size:80%
+        }
+
+        .warning {
+          background-color: #ffffcc;
+          border-left: 6px solid #ffeb3b;
+          width: 99%;    
+          height: 100px;
+          font-family: calibri;
+        }
+        .warning2{
+           background-color: #ccccff; 
+           border-left: 6px solid #3b4fff;
+           width: 99%;    
+           height: 40px;
+           font-family: calibri;
+        }
+        .warning3{
+           background-color: #ffe6cc; 
+           border-left: 6px solid #ff893b;
+           width: 99%;    
+           height: 40px;
+           font-family: calibri;
+        }
+        
+        .square {
+          position: relative;
+          height: 30px;
+          width: 100%;
+          left: 0%;
+          top: 0px;
+          font-family: calibri;
+          font-size: 100%;
+          background-color: #dc9617;
+          text-align:center;
+          border-style: solid;
+          border-color: Black;
+          color: White;
+        }
+      </style>
+    </head>
+	<body>
+    	<table id='t01'>
+        	<tr>
+              <th><input type='image' src="data:image/png;base64,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" alt='Submit' width='200px' height='60px'><p style='font-size: 200%;'>Invoice</p></th>
+              <th>SUPERVISOR RESPONSABLE (SUPERVISOR'S SIGNATURE )</th> 
+              <th><strong  style='position:relative;top:-20px;left:30px'>CORRELATIVO</strong><strong  style='position:relative;top:0px;left:-20px;color:red;'>FBO</strong><strong style='position:relative;top:15px;left:-37px;color:red'>89</strong></th>
+            </tr>
+        </table>    
+        <table id='t02'>    
+            <tr>
+              <td>No. VUELO (FLIGHT No.)</td>
+              <td>TIPO AERONAVE (AC MODEL)</td>
+              <td>MATRICULA (REGISTRATION NUMBER)</td>
+              <td>CLIENTE (CUSTOMER)</td>
+              <td>FECHA (DATE)</td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>June 22, 2021</td>
+            </tr>
+        </table>
+        <div class='square'><strong>AIRPORT FEES</strong></div>
+        <table id='t02'>
+        	<tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>164</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Custom Clearance - CIQ (Customs Immigration Quarantine)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>165</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Landing Charges</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>166</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Parking Charges Turn Around</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>167</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Parking Charges Overnight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>168</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Passenger Charges</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>169</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Terminal Navigations Charges</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>170</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Runway Lighting Fee</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>171</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Incinerator Fee</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>172</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Quarantine services (Spraying)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>173</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Quarantine services (Inspecction)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+        </table>
+        <div class='square'><strong>GROUND SUPPORT FEES</strong></div>
+        <table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>174</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Catering</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>175</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Cleaning - External / Internal</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>176</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Hotel -  Setup</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>177</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Landing Permit - Arrangement</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>178</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Overflight Permit - Arrangement</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>179</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Security - Aircraft</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>180</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Security - Screening</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>181</td>
+              <td><input type='checkbox' ></td>
+              <td>Hangar Fees</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>182</td>
+              <td><input type='checkbox' ></td>
+              <td>VIP Lounge - SMALL service</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>183</td>
+              <td><input type='checkbox' ></td>
+              <td>VIP Lounge MEDIUM Service</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>184</td>
+              <td><input type='checkbox' ></td>
+              <td>VIP Lounge LARGE Service</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>185</td>
+              <td><input type='checkbox' ></td>
+              <td>Visa Arrangement</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>186</td>
+              <td><input type='checkbox' ></td>
+              <td>Transportation</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+        </table>
+        <div class='square'><strong>RAMP SERVICE AND EQUIPMENT FEES</strong></div>
+        <table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC NUMBER</td>
+              <td>AT</td>
+            </tr>
+             <tr>
+              <td>187</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Baggage Handling, Clearance and Equipment</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>188</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Fumigation</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>189</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Nitrogen</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>190</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Oxygen</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>191</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Marshalling</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td>192</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Fuel</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>193</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Ramp Transportation</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>194</td>
+              <td><input type='checkbox' ></td>
+              <td>Air Start</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>195</td>
+              <td><input type='checkbox' ></td>
+              <td>Aircraft Heating / Cooling</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td>196</td>
+              <td><input type='checkbox' ></td>
+              <td>Aircraft Towing</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td>197</td>
+              <td><input type='checkbox' ></td>
+              <td>Belt Loader</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>198</td>
+              <td><input type='checkbox' ></td>
+              <td>Ground Power Unit (GPU)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>199</td>
+              <td><input type='checkbox' ></td>
+              <td>High Loader / Lift / Dollies</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>200</td>
+              <td><input type='checkbox' ></td>
+              <td>Lavatory Services</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>201</td>
+              <td><input type='checkbox' ></td>
+              <td>Potable Water Service</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>202</td>
+              <td><input type='checkbox' ></td>
+              <td>Waste Disposal And Transportation (Spraying)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>203</td>
+              <td><input type='checkbox' ></td>
+              <td>Stairs</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td></td>
+            </tr>
+        </Table>
+        <div class='square'><strong>HANDLING FEES</strong></div>
+        <Table id='t02'>
+            <tr id='t03'>
+              <td>CODIGO</td>
+              <td>RENTAL</td>
+              <td>SERVICE</td>
+              <td>QUANTITY</td>
+              <td>PRICE</td>
+              <td>TOTAL</td>
+              <td>DOC Number</td>
+              <td>AT</td>
+            </tr>
+            <tr>
+              <td>204</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Narrow body commercial JETS</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>205</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Super Large And long range JETS</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>206</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Large bussines JET</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>207</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Super midsize JET</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>208</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Mid size JETS </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>209</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Light bussines jets</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>210</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Large  comercial turboprop</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>211</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Medium comercial turbo prop </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>212</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Twin turbo prop</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>213</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Single engine turbo prop</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>214</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Twin Piston Engine</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>215</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Singles Piston Engine</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>216</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling - After Hours Surcharge</td>
+              <td></td>
+              <td></td>4
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>217</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Overnight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617' ></td>
+            </tr>
+            <tr>
+              <td>218</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Tech Stop / Fuel </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>219</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees - Tech Stop / Fuel </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>220</td>
+              <td><input type='checkbox' ></td>
+              <td>Helicopter Rental</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>221</td>
+              <td><input type='checkbox' ></td>
+              <td>Airplane Rental</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input value=></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>222</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Sales / VIP LOUNGE</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>223</td>
+              <td style='background-color:#dc9617'></td>
+              <td>COVID-19 Test</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>224</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Fees / Ambulance Services</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            <tr>
+              <td>225</td>
+              <td style='background-color:#dc9617'></td>
+              <td>Handling Local</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style='background-color:#dc9617'></td>
+              <td style='background-color:#dc9617'></td>
+            </tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </Table>
+        <div class='warning'><p><strong>OBSERVACIONES: </strong>Observation:</p></div>
+        <table>
+            <tr>
+                <td style='font-size: 105%; height: 90px; font-family: calibri;'><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkQAAADjCAYAAABkZgslAAAKiklEQVR4Xu3WwQ0AIBDDMNh/6CKxRswG+PrI3bbjESBAgAABAgTCAlcQha/v6wQIECBAgMAXEESGQIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBR7QFomFNZ46twAAAABJRU5ErkJggg=="; style='width:80%;height:70%;font-size:90%;'></p><p>____NOMBRE Y FIRMA COLABORADOR DE LAATS QUIEN BRINDA EL SERVICIO NAME AND SIGN FROM THE COLLABORATOR WHO PROVIDES THE SERVICE</p></td>
+                <td style='font-size: 105%; height: 90px; font-family: calibri;'><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkQAAADaCAYAAABHE11AAAAKIElEQVR4Xu3WwQ0AIBDDMNh/6CKxRswG+PrI3bbjESBAgAABAgTCAlcQha/v6wQIECBAgMAXEESGQIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQEEQ2QIAAAQIECOQFBFF+AgAIECBAgAABQWQDBAgQIECAQF5AEOUnAIAAAQIECBAQRDZAgAABAgQI5AUEUX4CAAgQIECAAAFBZAMECBAgQIBAXkAQ5ScAgAABAgQIEBBENkCAAAECBAjkBQRRfgIACBAgQIAAAUFkAwQIECBAgEBeQBDlJwCAAAECBAgQeFvEZaBdqMD+AAAAAElFTkSuQmCC" style='width:70%;height:70%;font-size:90%;'></p><p>____NOMBRE Y FIRMA DE QUIEN RECIBE COPIA CELESTENAME AND SIGN FROM WHO WILL RECEIVE THE COPY</p></td>
+            </tr>
+        </table>
+    </body>
+</html>
