@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+    <html lang='en'>
+        <head>
+            <title>ATENCION DE AERONAVES EN TIERRA LAATS</title>
+            <meta charset='utf-8'>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <style>
+            label {
+                font-size: 12px;
+            }
+            table {
+                border-collapse: collapse;
+                width: 75%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            td, th {
+                border: 1px solid #000000;
+                text-align: center;
+                padding: 8px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+
+            tr:nth-child(even) {
+            background-color: #ffffff;
+            }
+
+            td {
+                height:42px;
+            }
+
+            th {
+                background-color: #EB7322;
+                color: white;
+            }
+
+            #docId {
+                text-align: right;
+            }
+
+            #logo {
+                position: relative;
+                float: left;
+                margin-left: 10px;
+            }
+
+            #noOs{
+                position: absolute;
+                text-align: left;
+                width: 400px;
+                height: 40px;
+                left: 70%;
+            }
+
+
+            #header {
+                background-color: #C5C4C4;
+            }
+            
+            #title{
+                position: absolute;
+                text-align: left;
+                width: 400px;
+                height: 40px;
+                top: 90px;
+                left: 500px;
+            }
+
+            #noOs{
+                position: absolute;
+                background-color: white;
+                border: 2px solid black;
+                text-align: left;
+                width: 200px;
+                height: 30px;
+                top: 75px;
+                left: 70%;
+                padding-top: 10px;
+                padding-left: 5px;
+            }
+
+            .titulos {
+                background-color: #fed0b2;
+            }
+
+            .radiobuttons {
+                text-align: left;
+            }
+            </style>
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <th colspan='8' id='docId'>LA-RMP-001 R2</th>
+                <tr>
+                <tr>
+                    <td id='header' colspan='8'>
+                        <div>
+                            <img id='logo' src="&JSON(logo2.Image,JSONFormat.IncludeBinaryData)&"/> 
+                        </div>
+                        <div id='title'>ATENCION DE AERONAVES EN TIERRA LAATS - CGO</div>
+                        <div id='noOs'> No. OS "&Correlativo&"</div>
+                    </td>			
+                </tr>
+                <tr>
+                    <th colspan='8'>DATOS GENERALES</th>
+                </tr>
+                <tr class='titulos'>
+                    <td colspan='2'>Fecha: </td>
+                    <td colspan='2'>Operador Aereo: </td>
+                    <td>#Vuelo: </td>
+                    <td>Matricula: </td>
+                    <td colspan='2'>Tipo de Aeronave: </td>
+                </tr>
+                <tr>
+                    <td colspan='2'>"&Day&"/"&Month&"/"&Year&"</td>
+                    <td colspan='2'>"&AirOperator&"</td>
+                    <td>"&FlightNumber&"</td>
+                    <td>"&TailNumberFinal&"</td>
+                    <td colspan='2'>"&AircraftType&"</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo de operacion</b></td>
+                    <td colspan='2'>"&OperationType&"</td>
+                    <td><b>Procedencia:</b> "&Origin&"</td>
+                    <td><b>Destino:</b> "&Destination&"</td>
+                    <td><b>Puerta/Posicion:</b> "&Door&"</td>
+                    <td><b>ETA (Itinerario):</b> "&ETA&"</td>
+                    <td><b>ETD (Itinerario):</b> "&ETD&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>CONTROL DE EVENTOS (explique en la parte posterior del formato)</th>
+                </tr>
+                <tr class='titulos'>
+                    <td>¿Hubo demora al arribo de responsabilidad de Laats?</td>
+                    <td>¿Existi&oacute; demora en la colocaci&oacute;n de carga en la rampa de Exportaci&oacute;n?</td>
+                    <td>¿Hubo carga da&ntilde;ada al arribo?</td>
+                    <td>¿Se generaron reportes de mejora externos?</td>
+                    <td>¿Existi&oacute; demora en la clasificaci&oacute;n de Courier de Importaci&oacute;n?</td>
+                    <td>¿Hubo carga da&ntilde;ada a la salida?</td>
+                    <td>¿Hubo demora a la salida de responsabilidad de Laats?</td>
+                    <td>¿Hubo demora al arribo NO responsabilidad de Laats?</td>
+                </tr>
+                <tr>
+                    <td>"&CVRespuesta1&"</td>
+                    <td>"&CVRespuesta2&"</td>
+                    <td>"&CVRespuesta3&"</td>
+                    <td>"&CVRespuesta4&"</td>
+                    <td>"&CVRespuesta5&"</td>
+                    <td>"&CVRespuesta6&"</td>
+                    <td >"&CVRespuesta7&"</td>
+                    <td>"&CVRespuesta8&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>CONTROL DE TIEMPOS</th>
+                </tr>
+                <tr>
+                    <td class='titulos'>Inicio de Paletizado:</td>
+                    <td class='titulos'>Fin de Paletizado:</td>
+                    <td class='titulos'>Carga de EXPO lista en rampa:</td>
+                    <td class='titulos'>Hora Aterrizaje:</td>
+                    <td class='titulos'>Hora Asegurado:</td>
+                    <td class='titulos'>Compartimientos Abiertos:</td>
+                    <td class='titulos'>Inicio Descarga:</td>
+                    <td class='titulos'>Fin Descarga:</td>
+                </tr>
+                <tr>
+                    <td>"&CTRespuesta_1&"</td>
+                    <td>"&CTRespuesta_2&"</td>
+                    <td>"&CTRespuesta_3&"</td>
+                    <td>"&CTRespuesta_4&"</td>
+                    <td>"&CTRespuesta_7&"</td>
+                    <td>"&CTRespuesta_8&"</td>
+                    <td>"&CTRespuesta_9&"</td>
+                    <td>"&CTRespuesta_10&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos'>Inicio de Despaletizado:</td>
+                    <td class='titulos'>Fin de Despaletizado</td>
+                    <td class='titulos'>Inicio Cargado:</td>
+                    <td class='titulos'>Fin Cargado:</td>
+                    <td class='titulos'>Compartimientos Cerrados:</td>
+                    <td class='titulos'>Puerta Cerrada:</td>
+                    <td class='titulos'>Hora Retroempuje:</td>
+                    <td class='titulos'>Hora Despegue:</td>
+                </tr>
+                <tr>
+                    <td>"&CTRespuesta_5&"</td>
+                    <td>"&CTRespuesta_6&"</td>
+                    <td>"&CTRespuesta_11&"</td>
+                    <td>"&CTRespuesta_12&"</td>
+                    <td>"&CTRespuesta_13&"</td>
+                    <td>"&CTRespuesta_14&"</td>
+                    <td>"&CTRespuesta_15&"</td>
+                    <td>"&CTRespuesta_16&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='4' style='text-align: left; font-weight:bold;'>MOVIMIENTO DE EQUIPAJE CARGA Y OTROS ENTRANDO</td>
+                    <td class='titulos' colspan='4' style='text-align: left; font-weight:bold;'>MOVIMIENTO DE EQUIPAJE CARGA Y OTROS SALIENDO</td>
+                </tr>
+                <tr>
+                    <td colspan='2'><b>Posiciones Entrando MAIN DECK (cantidad): </b></td>
+                    <td colspan='2'><b>Posiciones Entrando LOWER DECK (cantidad): </b></td>
+                    <td colspan='2'><b>Posiciones Saliendo MAIN DECK (cantidad): </b></td>
+                    <td colspan='2'><b>Posiciones Saliendo LOWER DECK (cantidad): </b></td>
+                </tr>
+                <tr>
+                    <td colspan='2'>"&MCERespuesta1&"</td>
+                    <td colspan='2'>"&MCERespuesta2&"</td>
+                    <td colspan='2'>"&MCSRespuesta1&"</td>
+                    <td colspan='2'>"&MCSRespuesta2&"</td>
+                </tr>
+                <tr>
+                    <td colspan='2'><b>Posiciones TRANSITO descargadas (cantidad): </b></td>
+                    <td colspan='2'><b>Carga entrando (piezas BULK): </b></td>
+                    <td colspan='2'><b>Posiciones TRANSITO cargadas (cantidad): </b></td>
+                    <td colspan='2'><b>Carga saliendo (piezas BULK): </b></td>
+                </tr>
+                <tr>
+                    <td colspan='2'>"&MCERespuesta3&"</td>
+                    <td colspan='2'>"&MCERespuesta4&"</td>
+                    <td colspan='2'>"&MCSRespuesta3&"</td>
+                    <td colspan='2'>"&MCSRespuesta4&"</td>
+                </tr>
+                <tr>
+                    <td colspan='2'><b>Peso Total de CGO entrando GUA (peso): </b></td>
+                    <td colspan='2'><b>Otros Entrando (especifique tipo y cantidad): </b></td>
+                    <td colspan='2'><b>Peso Total de CGO saliendo GUA (peso): </b></td>
+                    <td colspan='2'><b>Otros Saliendo (especifique tipo y cantidad): </b></td>
+                </tr>
+                <tr>
+                    <td colspan='2'>"&MCERespuesta5&" lb</td>
+                    <td colspan='2'>"&MCERespuesta6&" lb</td>
+                    <td colspan='2'>"&MCSRespuesta5&" lb</td>
+                    <td colspan='2'>"&MCSRespuesta6&" lb</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='4' style='font-weight:bold;'>Personal asignado en Main Deck</td>
+                    <td class='titulos' colspan='4' style='font-weight:bold;'>Personal asignado para despaletizado General</td>
+                </tr>
+                <tr>
+                    <td colspan='4'>"&CuadroTexto1&"</td>
+                    <td colspan='4'>"&CuadroTexto2&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='4' style='font-weight:bold;'>Personal asignado en compartimientos de Lower Deck</td>
+                    <td class='titulos' colspan='4' style='font-weight:bold;'>Personal asignado para despaletizado de Courier IMPO</td>
+                </tr>
+                <tr>
+                    <td colspan='4'>"&CuadroTexto3&"</td>
+                    <td colspan='4'>"&CuadroTexto4&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>FUNCIONES DEL PERSONAL EN LA OPERACION</th>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Posicion de Personal</td>
+                    <td class='titulos' colspan='6'>Indique Primer Nombre y Primer Apellido</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Marshalling de aeronave</td>
+                    <td colspan='6'>"&FPO_Lista_1&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres banderas al arribo del vuelo</td>
+                    <td colspan='6'>"&FPO_Lista_2&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Operador de Remolcador de Aeronave</td>
+                    <td colspan='6'>"&FPO_Lista_3&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Operador para Acople / Desacople de Escalera</td>
+                    <td colspan='6'>"&FPO_Lista_4&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres gu&iacute;a para acople de Loader Main Deck</td>
+                    <td colspan='6'>"&FPO_Lista_5&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres gu&iacute;a para acople de Loader Lower Deck</td>
+                    <td colspan='6'>"&FPO_Lista_6&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Operador de tractores</td>
+                    <td colspan='6'>"&FPO_Lista_7&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Operador de Montacargas</td>
+                    <td colspan='6'>"&FPO_Lista_8&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres Guia para Acople de Fajas</td>
+                    <td colspan='6'>"&FPO_Lista_9&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres Guia para desacople de Loader Main Deck</td>
+                    <td colspan='6'>"&FPO_Lista_10&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres Guia para desacople de Loader Lower Deck</td>
+                    <td colspan='6'>"&FPO_Lista_11&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres Guia para Desacople de Fajas</td>
+                    <td colspan='6'>"&FPO_Lista_12&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Drenado de Aeronave</td>
+                    <td colspan='6'>"&FPO_Lista_13&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Aplicaci&oacute;n de Agua Potable</td>
+                    <td colspan='6'>"&FPO_Lista_14&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Hombres banderas a la salida del vuelo</td>
+                    <td colspan='6'>"&FPO_Lista_15&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Otros (indique)</td>
+                    <td colspan='6'>"&FPO_Lista_16&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>EQUIPO UTILIZADO EN EL VUELO</th>
+                </tr>
+                <tr>
+                    <td class='titulos'>Tractor</td>
+                    <td>"&EUV_Respuesta_1&"</td>
+                    <td class='titulos'>Remolcador de Aeronave</td>
+                    <td>"&EUV_Respuesta_2&"</td>
+                    <td class='titulos'>ASU</td>
+                    <td>"&EUV_Respuesta_3&"</td>
+                    <td class='titulos'>Montacargas</td>
+                    <td>"&EUV_Respuesta_4&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos'>Tractor</td>
+                    <td>"&EUV_Respuesta_5&"</td>
+                    <td class='titulos'>Agua Potable</td>
+                    <td>"&EUV_Respuesta_6&"</td>
+                    <td class='titulos'>Loader Main D</td>
+                    <td>"&EUV_Respuesta_7&"</td>
+                    <td class='titulos'>Montacargas</td>
+                    <td>"&EUV_Respuesta_8&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos'>Tractor</td>
+                    <td>"&EUV_Respuesta_9&"</td>
+                    <td class='titulos'>Drenadora</td>
+                    <td>"&EUV_Respuesta_10&"</td>
+                    <td class='titulos'>Loader Lower D</td>
+                    <td>"&EUV_Respuesta_11&"</td>
+                    <td class='titulos'>Montacargas</td>
+                    <td>"&EUV_Respuesta_12&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos'>Tractor</td>
+                    <td>"&EUV_Respuesta_13&"</td>
+                    <td class='titulos'>GPU</td>
+                    <td>"&EUV_Respuesta_14&"</td>
+                    <td class='titulos'>Extintor Robot</td>
+                    <td>"&EUV_Respuesta_15&"</td>
+                    <td class='titulos'>Carreta</td>
+                    <td>"&EUV_Respuesta_16&"</td>
+                </tr>
+                <tr>
+                    <td class='titulos'>Escalera</td>
+                    <td>"&EUV_Respuesta_17&"</td>
+                    <td class='titulos'>Barra</td>
+                    <td>"&EUV_Respuesta_18&"</td>
+                    <td class='titulos'>Unidad de FOD</td>
+                    <td>"&EUV_Respuesta_19&"</td>
+                    <td class='titulos'>DOLLIES (cantidad)</td>
+                    <td>"&EUV_Respuesta_20&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>FALLAS DEL EQUIPO DURANTE LA OPERACION</th>
+                </tr>
+                <tr>
+                    <td class='titulos' colspan='2'>Tipo y No. De la Unidad</td>
+                    <td class='titulos' colspan='2'>No. De Reporte de Falla</td>
+                    <td class='titulos' colspan='4'>Descripcion Breve de la Falla Reportada</td>
+                </tr>
+                <tr>
+                    <td colspan='2'>"&FED_Respuesta_1&"</td>
+                    <td colspan='2'>"&FED_Respuesta_3&"</td>
+                    <td colspan='4'>"&FED_Respuesta_4&"</td>
+                </tr>
+                <tr>
+                    <th colspan='8'>CONTROL DE EVENTOS (viene de la parte interior). AGREGUE CUALQUIER OBSERVACION, COMENTARIO IMPORTANTE DE LA OPERACION</th>
+                </tr>
+                <tr>
+                    <td colspan='8'>"&FED_Respuesta_5&"</td>
+                </tr>
+            </table>
+        </body>
+    </html>
