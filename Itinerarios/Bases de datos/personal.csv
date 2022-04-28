@@ -1,0 +1,156 @@
+codigo,nombre,departamento,puesto,mostrador_chequeo,area_rayos_x,marshalling_aeronave,hombre_bandera_arribo,operador_tractores,acople_fajas,operador_carga,drenado_aeronave,aplicacion_agua_potable,acople_desacople_escaleras,desacople_fajas,operador_remolque_aeronave,hombre_bandera_salida,otros,acople_loader_main_deck,acople_loader_lower_deck,desacople_loader_main_deck,desacople_loader_lower_deck,operador_fajas,operador_loader_main_deck,operador_loader_lower_deck,operador_montacargas,punta_ala_arribo,punta_ala_salida
+1,Aaron Luna Mijangos,PXS,Supervisor,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+2,Adonai Alexander Morataya Martinez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+3,Boris Alexander Sanchez Rojas,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+4,Byron Leonel Ramírez López,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+5," Byron Nicolas Tojin Sarat",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+6,Cristopher Dario Lima Sian,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+7,Daily Lizeth Castro Santos,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+8,Dani Elisandro Sanchez Ortiz,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+9,Daniel Alejandro de Paz,PXS,Supervisor,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+10,Daniel Alexander Morataya Pastor,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+11,"Dario Godoy Asencio ",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+12,Delia Cristina Rodríguez Enriquez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+13,"Demetrio 
+García Quevedo",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,False,False
+14,Diego Ignacio Pérez Pérez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+15,Diego Fernando Pop Quej,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+16,Edgar Cac Moran,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+17,Edgar Fernando Alfaro Coc,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+19,Eduardo Leonel Rodriguez Agustin,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+20,Edvin Leonel Gonzalez Xitumul,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+21,Edwin José Adolfo Miranda Muralles,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+22,Erwin Alexander  Marroquín Roldan,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+23,Edwin Ronely Calderon Garcia,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+24,Fredy Ohad Quiñonez Garcia,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+25,Edy Everaldo Che Cac,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+26,Edyn Alexander Sipac Aju,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+27,Francisco Eduardo Chavajay Coché,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+28,Henry Isaias Gonzalez Vicente,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+29,Hugo René Cucinati Polanco,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+30,Ely Aroldo Raymundo Vasquez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+31,Isaias Natanael Gualip Chilel,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+32,Jairo Samuel Benavente Hernandez,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+33,Jimmy Angel Donis Garcia,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+34,John Robert Morales Rueda,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+35,Jordy  Emerson Daniel Choche Guzman,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+36,Jose David Lopez Giron,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+37,"Gilberto 
+Yoan Quiyuch Rojas ",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,False,False
+38,Juan Jose Castellanos Garcia,PXS,Supervisor,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+39,Glenda Marisol Velasquez Miranda,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+40,Julio Cesar Reyes,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+41,"Harrison 
+Giovanni Gonzalez Choy",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,False,False
+42,Irwi Arnoldo Alonzo Ochoa,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+43,Lester Alexander Chen Santos,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+44,Luis Ricardo Méndez Castillo,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+45,Julia Beatriz Lopez Ajuchan,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+46,Mario Roberto Monroy,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+47,Marlon Ottoniel Sicajá Santos,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+48,Marvin David Pancho Nimajuan,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+49,Melvin David Ordoñez Contreras,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+50,José David López Giron,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+51,Nelson Augusto Bor García,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+52,Olga Leticia Castañeda Montenegro,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+53,Patrick Steve Rodriguez Calderon,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+54,Keneth Anderson Mejía Barrera,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+55,Roberto Alexander Sipac Sicajan,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+56,Rudy Pérez López,PXS,Operador,False,False,True,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+57,Suliana Amarilis Orózco Samayoa,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+58,Kendal Hemanuel García Bernal,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+59,Victor Andrei Gomez Perez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+60,Yonatan Raul Alvarez Barillas,PXS,Encargado,False,False,True,False,True,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False
+61,Luis Sebastián Ignacio,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+62,Miguel Angel Xon Esquina,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+63,"Valentin 
+Cujuy Ramos",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,False,False
+64,Vilma Floridalma Tzay Chuluc,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+65,Pedro Francisco Otzin Godinez,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+66,Yudin Asencio Revolorio,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+67,Wensceslao Tzoy Castro,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+68,Alberto Mario Rene Tupul Flores,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+69,Dario Salvador de Leond Maldonado,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+70,Nestor Fabricio Sis Pineda,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+71,"Estuardo 
+Efrain Ramirez Asturias",PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,False,False
+72,Kleyser Steve Pinto Elvira,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+73,Ignacio Leonel Vargas López,PXS,Agente,True,True,True,True,False,True,False,True,True,True,True,False,True,True,False,False,False,False,False,False,False,False,True,True
+74,MARIO PLINIO VELASQUEZ GONZALEZ,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+75,"WAGNER GABRIEL ORTIZ CARDONA ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+76,"SAMUEL EMANUEL MAZARIEGOS REYEZ ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+77,"LUIS ADIR MATAMOROS BAQUEDANO ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+78,ANDERSON HAMED MENESES CHAVEZ,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+79,JORGE ALBERTO CENTENO CONCUA,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+80,"JOSUE MOISES PEREZ AGUILAR ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+81,"OTTO ROLANDO ROSALES MORALES ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+82,CARLOS SUBYUJ JUTZUY,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+83,ERIC FERNANDO MARROQUIN PEREZ,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+84,"RICARDO HERNANDEZ VASQUEZ ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+85,"BRAYAN OMAR REVOLORIO CUELLAR ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+86,JULIO CESAR CHIPIN GARCIA,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+87,"MARTIN EDUARDO LOPEZ COSAJAY ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+88,JAVIER FRANCISCO QUEJ POP,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+89,JONATHAN ESDUARDO PEREZ M.,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+90,"JOSE CRUZ MONROY VASQUEZ ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+91,JORGE DAVID LIMA XICAY,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+92,"RIGOBERTO ANTONIO SUY DE PAZ ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+93,"GUILLERMO INTERIANO HERNANADEZ ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+94,"GERMAN OVIDIO ACTE  CHOC ",CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+95,VALERIANO VASQUEZ NAJERA,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+96,JOSE DOMINGO GARCIA CERVANTE,CGO,OPERADOR,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False
+97,MARTIN LOPEZ COTSAJAY,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+98,ROGELIO CARINO SABAN,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+99,SILAS ALVARENGA,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+100,VICTOR MANUEL GONZALEZ PIXTUN,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+101,SANTIAGO ADOLFO YUC GARCIA,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+102,FELIPE RICARDO CONDE MACARIO,CGO,CREW CHIEF,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+103,BYRON ARIL LOPEZ ROJAS,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+104,FRANK ALEXANDER SANCHEZ QUIREO,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+105,BRIJIDO EJCALON,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+106,APOLINARIO ALVARADO,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+107,ANTONIO CAC CUCUL,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+108,HENRY  NAHUMAN CINTO,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+109,LUIS DANIEL GARCIA ORTIZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+110,"BYRON ALVARADO CARRERA ",CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+111,"AMILCAR ROGELIO XOL YAXCAL ",CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+112,ANDERSON HAMED MENESES CHAVEZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+113,JUAN VICTOR LOPEZ CHAJCHAGUIN,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+114,JONATHAN CALEB GUTIERREZ SOTO,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+115,DILSON ANTONIO CULAJAY,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+116,BYRON GALICIA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+117,MARCELINO COC BOLON,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+118,JUAN PAULINO CARRERA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+119,JONATHAN  RAFAEL LOPEZ GARCIA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+120,ERICK JONATHAN ESCOBAR U.,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+121,"JUAN CARLOS  FELIPE ",CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+122,EDGAR ANTONIO VASQUEZ SIAN,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+123,MARCOS CHE AC,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+124,MARCO ROMAN PIRIR,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+125,BRAYAN JAVIER HERNANDEZ GARCIA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+126,ALEX GREGORIO XI,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+127,MAURO GOMEZ SOCOY,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+128,BAYRON IVAN PEREZ LOPEZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+129,MICHAEL ENRIQUE HERRERA CHUPINA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+130,DERICK RABINEL VELASQUEZ FUENTEZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+131,OTTO FIDELINO BARRIOS,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+132,SAMUEL ELISEO YOS GARCIA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+133,NOE ICANON LOPEZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+134,JEFRY ALFREDO YOL SIAN,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+135,DAVIID JOSE LUIS HERNANDEZ   AJCIP,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+136,CARLOS ENRIQUE CAAL QUEJ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+137,ERICK DAVID PEREZ MARROQUIN,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+138,"RAUL RAMIREZ CANAN ",CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+139,DIEGO ALEJANDRO VALDEZ AVILA,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+140,BRANDON ALEXANDER ALVARADO XOLOP,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+141,HAROLDO JAVIER MEJIA SAGUACHE,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+142,MANUEL CHOC,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+143,OLIVER JOSUE LOPEZ CASTILLO,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+144,IGNACIO LEONEL VARGAS LOPEZ,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+145,P,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+146,DAGOBERTO MARCELO AGUILAR CASTAÑON,CGO,Agente,False,False,False,True,False,True,False,True,True,False,True,False,True,True,True,True,True,True,False,False,False,False,False,False
+147,Adelso Garcia,CGO,Jefe,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+148,Edgar Juarez,CGO,Coordinador,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+149,Marlo Garcia,CGO,Supervisor,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+150,Robertito Xot,CGO,Supervisor,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False
+151,William Morales,CGO,Supervisor,False,False,True,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,True,True,True,True,False,False

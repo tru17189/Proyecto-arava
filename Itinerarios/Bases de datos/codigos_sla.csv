@@ -1,0 +1,87 @@
+id_codigo,codigo,id_operador,departamento,descripcion,tipo_codigo
+1,11T,1,CCO,Procesos de atención,
+2,11U,1,CCO,Falta de equipo de apoyo,
+3,11G,1,CCO,"Envío de W & B de forma tardía, error en las instrucciones, falta de personal.",
+4,11A,1,SAP,Procesos de atención a Clientes,
+5,11H,1,SAP,Proceso atención Clientes con impacto en estación destino como repercusión,
+6,11L,1,SAP,Sobreventa efectiva,
+7,15,4,CCO,Equipo de tierra inoperativo,Demoras de equipaje (MBR)
+8,57,4,CCO,"Daño al avión bajo responsabilidad de Servicio a Cabina, limpieza",Demora de vuelo
+9,100,4,CCO,"Demora en remoción de equipaje de pasajeros ausente, 800: más de 20 minutos, 700/EMB: más de 15 minutos",Demora de vuelo
+10,113,4,CCO,Falta de paymover impidiendo el pushback.,Demora de vuelo
+11,114,4,CCO,Obstrucción por equipo de Rampa impidiendo procesos de otras áreas,Demora de vuelo
+12,141,4,CCO,Falta de personal por ausencia masiva requiere autorización de un coordinador,Demora de vuelo
+13,142,4,CCO,Falta de personal por error de distribución cometido por supervisor,Demora de vuelo
+14,171,4,CCO,Demora en procesos bajo responsabilidad de Rampa,Demora de vuelo
+15,172,4,CCO,"Demora en envío de cargado por agente 1, después de T-20",Demora de vuelo
+16,173,4,CCO,"Cargado inconsistente con forma de Carga, no conforme a instrucción de LIR",Demora de vuelo
+17,174,4,CCO,Remoción de sistema eléctrico en Embraer sin autorización de tripulación técnica,Demora de vuelo
+18,175,4,CCO,Demora de recolección y cargue de equipaje de mano facturado,Demora de vuelo
+19,181,4,CCO,Daño al avión bajo responsabilidad de Rampa,Demora de vuelo
+20,503,4,CCO,Demora en proceso de limpieza de aeronave,Demora de vuelo
+21,504,4,CCO,Falta de cuadrilla,Demora de vuelo
+22,513,4,CCO,Servicio de drenaje,Demora de vuelo
+23,523,4,CCO,Servicio de agua potable,Demora de vuelo
+24,31,4,SAP,Equipaje abordado en vuelo equivocado,Demoras de equipaje (MBR)
+25,32,4,SAP,Inadecuada ubicación en bins.,Demoras de equipaje (MBR)
+26,33,4,SAP,Equipaje bajado en estación intermedia.,Demoras de equipaje (MBR)
+27,34,4,SAP,Equipaje sobrevolado.,Demoras de equipaje (MBR)
+28,35,4,SAP,Equipaje rezagado en área de rampa.,Demoras de equipaje (MBR)
+29,37,4,SAP,Equipaje tomado por el Departamento de Carga.,Demoras de equipaje (MBR)
+30,41,4,SAP,Equipaje entregado tarde an area de Aduanas.,Demoras de equipaje (MBR)
+31,91,4,SAP,Remocion de equipaje de mano,Saqueo de equipaje (MBR)
+32,92,4,SAP,Equipaje dañado y saqueo simultaneamente,Saqueo de equipaje (MBR)
+33,13,4,SAP,"Error en Check In: documentación vencida, pasaporte, visa, etc. después de la hora de cierre, al colillar equipaje",Demoras de equipaje (MBR)
+34,04A,4,SAP,"Demora en abordaje bajo responsabilidad de Servicios a Pasajero por error en control de vuelo, conciliación.",Demora de vuelo
+35,04B,4,SAP,Demora en abordaje bajo responsabilidad de Servicios a Pasajeros por error del agente de inicio de abordaje,Demora de vuelo
+36,04C,4,SAP,Demora en abordaje bajo responsabilidad de Servicios a Pasajeros por aceptar pasajero después de los 6 minutos estipulados para cierre de abordaje.,Demora de vuelo
+37,04E,4,SAP,Retraso de embarque bajo la responsabilidad de Servicios Aeroportuarios debido a manejo de puentes de abordaje,Demora de vuelo
+38,5,4,SAP,Demora de entrega de documentos de vuelo bajo responsabilidad de Servicios a Pasajeros,
+39,1BC,4,SAP,UNREC entregado o comunicado a Rampa después de T-6.,Demora de vuelo
+40,9,4,SAP,Búsqueda y remoción de equipaje por pasajero ausente en puerta de abordaje,
+42,11,4,SAP,Equipaje mal colillado.,Demoras de equipaje (MBR)
+43,12,4,SAP,Equipaje con colillas viejas,Demoras de equipaje (MBR)
+44,13,4,SAP,Intercambio de colillas en Mostrador,Demoras de equipaje (MBR)
+45,15,4,SAP,Equipaje no manifestado.,Demoras de equipaje (MBR)
+46,21,4,SAP,Pasajero tranferido de un vuelo a otro sin su equipaje,Demoras de equipaje (MBR)
+47,22,4,SAP,Equipaje rezagado por falta de coordinación de Personal de Tráfico en Puerta. (EQUIPAJE ABORDA PAX NO; PASAJERO ABORDA EQUIPAJE NO).,Demoras de equipaje (MBR)
+48,23,4,SAP,Equipaje de mano rezagado.,Demoras de equipaje (MBR)
+49,51,4,SAP,"Pasajero re-ruteado, equipaje no re-ruteado",Demoras de equipaje (MBR)
+50,A01B,15,CCO,LIMPIEZA O SUMINISTRO DE AERONAVES POR PARTE DE UN SOCIO COMERCIAL,
+51,A05B,15,CCO,CARGA TARDÍA / ACEPTACIÓN DE EQUIPAJE CONTROLADO EN PUERTA POR UN SOCIO COMERCIAL,
+52,A07B,15,CCO,BOLSAS TARDÍAS DEL HABITACIÓN AL AVIÓN O CARGA TARDÍA DE BOLSAS / CARGA POR PARTE DE UN SOCIO COMERCIAL,
+53,A16B,15,CCO,ACOMODAR CLIENTES DE SPECIAL-ASSIST (WCHR) (MÁS DE 5) O ACOMODAR PERSONALIZADO DIRECTO POR UN SOCIO COMERCIAL. POR FAVOR INGRESE LA CANTIDAD DE WCHRS EN LA SECCIÓN DE COMENTARIOS. TAMBIÉN PODRÍA SER CARGADO DE WCHR MOTORIZADO LO QUE TOMA TIEMPO EXTRA,
+54,A17B,15,CCO,"FINALIZACIÓN DE LAS VERIFICACIONES DE GSC REQ, TRANSPORTADORES DE MASCOTAS, ERROR DE ASIENTO DE LA FILA DE SALIDA, ETC. POR UN SOCIO COMERCIAL (PROBLEMA DE CUMPLIMIENTO LEJOS A BORDO CAUSADO POR LOS AEROPUERTOS)",
+55,A18B,15,CCO,"TARDE COMIENZO DE EMBARQUE, TARDE CM A PUERTA, REGISTRO TARDE, FALTA DE VERIFICACIÓN DE DOCUMENTOS, ETC. POR UN SOCIO COMERCIAL",
+56,A21B,15,CCO,EQUIPO DE SERVICIO A TIERRA FUERA DE SERVICIO POR PARTE DE UN SOCIO COMERCIAL (NÚMERO DE EQUIPO DEBE INC),
+57,A26B,15,CCO,"RETRASO INCURRIDO POR PERSONAL INADECUADO PARA APOYAR LA OPERACIÓN POR PARTE DE UN SOCIO COMERCIAL. EJEMPLO: ATENCIÓN AL CLIENTE, RAMPA, APROVISIONAMIENTO",
+58,A28B,15,CCO,"TIRAR LA CORRIENTE DE TIERRA TEMPRANO, SERVICIO DE LAV / H2O, NO DRENAJE DE AGUA EN RON, ARRANQUE DE AIRE NO EN SU LUGAR, ETC. POR UN SOCIO COMERCIAL",
+59,A29B,15,CCO,DAÑOS A LA AERONAVE JETBLUE POR UN SOCIO COMERCIAL,
+140,CG1,14,CCO,"Delay in loading baggage and/or cargo due to local passenger baggage · Extended loading time of passenger baggage including volume of baggage · Late loading of cargo items such as freight, mail, co-mail, etc. that were delivered/staged on-time with appropriate documentation · Inop inplane loading system",
+141,CG2,14,CCO,Removing or reloading of baggage or cargo due to overweight or out of balance (includes ground interrupt). Delays due to reloading or removal of cargo for Weight and Balance purposes. This includes reloading or removal of cargo while at the gate or after a ground interrupt due to failure to follow the load plan or weight restrictions resulting in the flight being overweight or out of balance.,
+142,CG3,14,CCO,"Late delivery or staging of cargo items such as freight, mail, co-mail, etc. (non-passenger baggage). Includes incorrect and/or incomplete documentation.",
+143,CG4,14,CCO,Ramp holding to load connecting baggage with less than minimum connection time available.,
+144,CG7,14,CCO,Delays related to ramp agent’s late retrieval of properly staged gate checked baggage – reference Are You Ready (AYR) departure protocols. · Refer to scenario #6 on page three (3),
+145,SV0,14,CCO,Delays due to late or improper aircraft potable water servicing. Also includes re-servicing/topping off of potable water. · Includes items not covered by delay codes SV1 – SV7.,
+146,SV1,14,CCO,"Untimely or improper aircraft cleaning - failure to follow company policy, procedure or process.",
+147,SV3,14,CCO,"Untimely or improper lavatory servicing - failure to follow company policy, procedure or process. Delays due to lavatory servicing include over filling of blue juice, re-servicing lavatories that were not properly serviced, and crew requested lavatory re-servicing due to odor (passenger comfort)",
+148,SV4,14,CCO,Delays incurred while performing at-gate engine starts with all crew and equipment in place ontime. Delays incurred while performing non-standard engine starts (i.e. air starts) provided all personnel and equipment in place at D-7 and provided the requirement was known in advance.,
+149,SV6,14,CCO,"Delays caused by operator not following standard ground service equipment operating procedures. This includes running out of fuel, failure to charge battery powered equipment, damage or misuse of GSE equipment.",
+150,SV7,14,CCO,"Delays due to contract ground equipment being inoperative, unavailable or failing during use. This includes where a vendor (non-company) supports and/or provides the equipment. Delay remarks should clearly identify what equipment failed. For issues with airport owned facilities use OP2",
+151,SC0,14,CCO,"International security cabin search, cabin panel or floor removal and search, AA gate security reviews and ID checks. · Includes items not covered by delay codes SC1 – SC5.",
+152,SC2,14,CCO,"Onboard security concerns, passenger removal, ground interrupt, and PPBM bag processing/ removal.",
+153,CG0,14,CCO,"Includes items not covered by delay codes CG1-CG7. · Delays include failing to follow published procedures, equipment or personnel not in place, etc. · Unauthorized loading, including loading bags that have more than minimum connect time with no HCC/Tower authorized hold.",
+154,SV0,14,CCO,Delays due to late or improper aircraft potable water servicing. Also includes re-servicing/topping off of potable water. · Includes items not covered by delay codes SV1 – SV7.,
+155,SV1,14,CCO,"Untimely or improper aircraft cleaning - failure to follow company policy, procedure or process.",
+156,SV3,14,CCO,"Untimely or improper lavatory servicing - failure to follow company policy, procedure or process. Delays due to lavatory servicing include over filling of blue juice, re-servicing lavatories that were not properly serviced, and crew requested lavatory re-servicing due to odor (passenger comfort)",
+157,SV4,14,CCO,Delays incurred while performing at-gate engine starts with all crew and equipment in place ontime. Delays incurred while performing non-standard engine starts (i.e. air starts) provided all personnel and equipment in place at D-7 and provided the requirement was known in advance.,
+158,SV6,14,CCO,"Delays caused by operator not following standard ground service equipment operating procedures. This includes running out of fuel, failure to charge battery powered equipment, damage or misuse of GSE equipment.",
+159,SV7,14,CCO,"Delays due to contract ground equipment being inoperative, unavailable or failing during use. This includes where a vendor (non-company) supports and/or provides the equipment. Delay remarks should clearly identify what equipment failed. For issues with airport owned facilities use OP2",
+160,SC0,14,CCO,"International security cabin search, cabin panel or floor removal and search, AA gate security reviews and ID checks. · Includes items not covered by delay codes SC1 – SC5.",
+161,SC2,14,CCO,"Onboard security concerns, passenger removal, ground interrupt, and PPBM bag processing/ removal.",
+162,CG0,14,CCO,"Includes items not covered by delay codes CG1-CG7. · Delays include failing to follow published procedures, equipment or personnel not in place, etc. · Unauthorized loading, including loading bags that have more than minimum connect time with no HCC/Tower authorized hold.",
+163,81,4,SAP,Equipaje dañado,Dano de equipaje (MBR)
+164,83,4,SAP,Equipaje dañado luego de rezago,Dano de equipaje (MBR)
+166,03,4,SAP,Solicitando voluntarios por sobreventa,
+167,02,4,SAP,Cogestión área de Check In,
+168,112,4,CCO,Falta de Head Set impidiendo Gaseo o Pushback,

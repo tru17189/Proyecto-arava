@@ -1,0 +1,291 @@
+id,no_correlativo,origen,destino,equipaje_priority,equipaje_turista,carga,otros,bin
+9,3039,GUA,MIA,9,56,,,BIN 1
+10,3039,,,,86,,"12 PRIORITY ",BIN 2
+11,3297,GUA,DFW,,3,78,"09 PRIORITY ",BIN 3
+12,3448,,,,,,,BIN 1
+13,3560,,,,,,,BIN 1
+14,1755,GUA,PTY,,,,,BIN 1
+15,1755,GUA,PTY,,,,,BIN 2
+17,629,GUA,JFK,,77,,,BIN 1
+18,629,GUA,JFK,,30,,,BIN 2
+34,6153,Gua,Frs,,20,,,BIN 1
+35,6153,,,,,,,BIN 3
+36,9099,GUA,JFK,,39,,,BIN 2
+37,9099,GUA,JFK,,71,,,BIN 3
+38,9099,GUA,JFK,,19,,,BIN 4
+40,8605,Gua,MIA,,75,,,BIN 2
+41,8605,Gua,MIA,,89,16,,BIN 3
+42,8605,,,,,,,BIN 4
+43,68,Gua,Pty,3,,,,BIN 1
+44,68,Gua,Pty,,108,,,BIN 2
+45,68,Gua,Pty,,,168,,BIN 3
+46,9619,Gua,Mia,,96,,,BIN 2
+47,9619,Gua,Mia,,57,97,,BIN 3
+48,9369,Gua,Dfw,,107,,,BIN 2
+49,9369,Gua,Dfw,,53,75,,BIN 3
+50,7366,Gua,Mex,14,,,,BIN 1
+51,7366,Gua,Mex,,,24,,BIN 3
+52,9291,Gua,Mia,,122,,,BIN 2
+53,9291,Gua,Mia,,35,5,,BIN 3
+54,5966,Gua,Frs,,,,Manto,BIN 1
+55,5966,Gua,Frs,,12,,,BIN 2
+56,5966,Gua,Frs,,,,,BIN 3
+57,5966,Gua,Frs,,8,,,BIN 4
+58,6416,Gua,Pty,,38,0,12 priotitys,BIN 2
+59,6416,Gua,Pty,,42,0,0,BIN 3
+60,9213,Gua,Mia,6,10,,,BIN 1
+61,9213,Gua,Mia,,125,,,BIN 2
+62,9213,,,,,188,,BIN 3
+63,9694,,,,83,,18,BIN 2
+64,9694,,,,37,,3,BIN 3
+65,6616,Gua,Pty,,109,,,BIN 2
+66,9623,,,14,76,,,BIN 1
+67,9623,,,,31,168,,BIN 3
+69,5970,Gua,Frs,,21,,,BIN 2
+71,9373,Gua,Dfw,,97,,,BIN 2
+72,9373,Gua,Dfw,,47,,,BIN 3
+73,9295,Gua,Mia,,89,,,BIN 2
+74,9295,Gua,Mia,,70,,,BIN 3
+75,7370,,,,76,,,BIN 3
+76,6420,Gua,Pty,,,6,,BIN 1
+77,6420,Gua,Pty,,44,55,6 equipaje prioridad,BIN 2
+78,6420,Gua,Pty,,65,,48 prioridades,BIN 3
+79,6420,,,,,,,BIN 4
+80,6420,,,,,,,BIN 5
+81,6865,Gua,Sjo,,53,,,BIN 2
+82,6865,Gua,Sjo,,9,190,,BIN 3
+83,7165,,,,,8,,BIN 1
+84,9176,1,2,,,,,BIN 1
+85,7514,Gua,Mex,9,64,5,,BIN 1
+86,7514,Gua,Mex,,,22,,BIN 2
+87,6395,Gua,Pty,7,10,,,BIN 1
+88,6395,Gua,Pty,,122,,,BIN 2
+89,6395,,,,,165,,BIN 3
+90,9627,,,,37,,11 prioridades,BIN 3
+103,9221,Gua,DFW,,28,135,17,BIN 3
+104,9221,Gua,Dfw,,,,,BIN 4
+105,9702,,,,70,,18,BIN 2
+106,9702,,,,36,,8,BIN 3
+107,9706,Gua,Dfw,,92,,"25 prioridades ",BIN 2
+114,9381,Gua,Dfw,,100,,,BIN 2
+115,9381,Gua,Dfw,,60,103,,BIN 3
+116,9303,Gua,Mia,8,,,,BIN 1
+117,9303,Gua,Mia,,102,,,BIN 2
+118,9303,Gua,Mia,,43,117,,BIN 3
+119,7350,Gua,Mex,,95,,,BIN 2
+120,7350,Gua,Mex,,,179,,BIN 3
+121,7350,Gua,Mex,,,5,,BIN 4
+122,9428,Guq,Ord,,99,,2 prioridades,BIN 2
+125,7518,0,0,,0,0,0,BIN 3
+126,7518,0,0,,0,0,0,BIN 4
+127,9225,Gua,Mia,,90,,,BIN 2
+128,9225,Gua,Mia,,18,,,BIN 3
+129,6056,,,,,,,BIN 5
+132,9710,Gua,Dfw,,90,,"12 prioridades ",BIN 2
+133,9710,Gua,Dfw,,33,,"20 prioridades ",BIN 3
+134,9385,Gua,Dfw,,78,,"12 prioridades ",BIN 2
+135,9385,Gua,Dfw,,40,5,"3 prioridades ",BIN 3
+145,6405,GUA,PTY,0,30,0,0,BIN 1
+146,6405,GUA,PTY,,45,60,0,BIN 2
+147,6405,GUA,PTY,,72,0,0,BIN 3
+148,9635,GUA,MIA,,68,75,0,BIN 2
+149,9635,GUA,MIA,,81,0,0,BIN 3
+150,9229,Gua,Dfw,,75,,28 equipaje priority,BIN 2
+151,9229,Gua,Dfw,,15,99,,BIN 3
+154,9713,,,,88,,10,BIN 2
+155,9713,,,,17,,2,BIN 3
+157,5959,GUA,FRS,,12,,,BIN 2
+158,5959,GUA,FRS,,17,,,BIN 4
+159,9638,Gua,Mia,,103,,,BIN 2
+160,9638,Gua,Mia,,17,20,,BIN 3
+163,9388,,,,88,,9,BIN 2
+164,9388,,,,29,88,9,BIN 3
+165,6609,Gua,Pty,,30,,,BIN 1
+166,6609,Gua,Pty,,46,,24 Maletas Priority,BIN 2
+167,6609,Gua,Pty,,,216,,BIN 3
+168,7179,Gua,Pty,,30,,,BIN 1
+169,7179,Gua,Pty,,49,,21 Maletas Priority,BIN 2
+170,7179,Gua,Pty,,31,100,,BIN 3
+171,7359,Gua,Mex,5,,,,BIN 1
+172,7359,Gua,Mex,,57,,,BIN 2
+173,7359,Gua,mex,,1,,,BIN 3
+174,7527,Gua,Mex,19,50,,,BIN 1
+175,7527,Gua,Mex,,,,,BIN 2
+176,7527,Gua,mex,,,,,BIN 3
+177,7527,,,,,,,BIN 4
+181,6879,GUA,SJO,30,,,,BIN 1
+182,6879,GUA,SJO,,28,,,BIN 2
+183,6879,GUA,SJO,,3,274,,BIN 3
+199,9366,,,,121,,18,BIN 2
+200,9366,,,,,160,,BIN 3
+201,9691,Gua,Dfw,12,,,,BIN 1
+202,9691,Gua,Dfw,,106,,,BIN 2
+203,9691,,,,,80,,BIN 3
+204,7363,GUA,MEX,13,9,,,BIN 1
+205,7363,GUA,MEX,,52,,,BIN 2
+206,7363,GUA,MEX,,15,,,BIN 3
+208,6613,Gua,Pty,,,10,,BIN 1
+209,6613,Gua,Pty,,80,17,15 equipaje priority,BIN 2
+210,6613,Gua,Pty,,,102,,BIN 3
+211,7183,Gua,Pty,,,2,,BIN 1
+212,7183,Gua,Pty,,65,,20 equipaje priority,BIN 2
+213,7183,Gua,Pty,,24,100,,BIN 3
+214,6413,Gua,Pty,,12,1,,BIN 1
+215,6413,Gua,Pty,,39,93,35 equipaje priority,BIN 2
+216,6413,Gua,Pty,,50,85,,BIN 3
+217,9754,Gua,Fls,,15,,,BIN 1
+218,9754,Gua,Fls,,10,,,BIN 2
+219,9754,,,,,,,BIN 3
+220,9754,Guq,Fls,,20,,5 comat,BIN 4
+221,9288,Gua,Mia,,65,155,,BIN 2
+222,9288,Gua,Mia,,116,,,BIN 3
+223,6883,GUA,SJO,,30,,,BIN 1
+224,6883,GIA,SJO,,37,,,BIN 2
+225,6883,GUA,SJO,,14,,,BIN 3
+228,5963,GUA,FRS,,10,,,BIN 1
+229,5963,GUA,FRS,,19,,,BIN 2
+230,5963,GUA,FRS,,10,,,BIN 4
+231,7531,GUA,MEX,4,,,,BIN 1
+232,7531,GUA,MEX,,23,,,BIN 2
+233,9695,Gua,Dfw,,64,,"19 prioridades ",BIN 2
+234,9695,Gua,Dfw,,,142,,BIN 3
+235,6887,Gua,Sjo,,30,,,BIN 1
+236,6887,Gua,Sjo,,27,,,BIN 2
+237,7187,Gua,Pty,,,5,,BIN 1
+238,7187,Gua,Pty,,45,94,,BIN 2
+239,7187,Gua,Pty,,80,101,,BIN 3
+240,7367,Gua,Mex,,,33,,BIN 3
+241,9370,Gua,Dfw,,64,,,BIN 2
+242,9292,Gua,Mia,,90,,,BIN 2
+243,9292,Gua,Mia,,26,20,,BIN 3
+244,9624,Gua,Mia,,13,306,"9 prioridades ",BIN 2
+245,7371,Gua,Mex,,23,33,4 priority,BIN 2
+246,7539,,,,,19,,BIN 3
+247,9374,,,,39,,11,BIN 2
+248,9374,,,,16,104,3,BIN 3
+249,6617,,,,19,89,2,BIN 2
+250,6617,,,,68,,8,BIN 3
+251,9699,,,,43,,10,BIN 2
+252,9699,,,,,176,,BIN 3
+253,9296,,,,69,,16,BIN 2
+254,9296,,,,23,40,9,BIN 3
+255,9218,Gua,Dfw,,22,,"1 prioridad ",BIN 3
+256,9703,Gua,Dfw,,41,,,BIN 2
+257,9703,,,,,87,,BIN 3
+261,7683,GUA,MEX,,,30,,BIN 1
+262,7683,GUA,MEX,,,109,,BIN 2
+263,7683,GUA,MEX,,57,,,BIN 3
+264,9382,Gua,Dfw,,98,,"22 prioridades ",BIN 2
+265,9429,Gua,Ord,,94,,"6 prioridades ",BIN 2
+266,9429,Gua,Ord,,16,,"1 prioridad ",BIN 3
+267,9636,,,7,2,,,BIN 1
+268,9636,,,,88,,1,BIN 2
+269,9636,,,,8,50,3,BIN 3
+270,7356,,,,65,,10,BIN 2
+271,7524,Gua,Mex,7,40,,,BIN 1
+272,7524,Gua,Mex,,,,,BIN 2
+273,9714,Gua,Mia,,97,,,BIN 2
+274,9714,Gua,Mia,,46,,,BIN 3
+277,6410,,,,,1,,BIN 1
+278,6410,Gua,Pty,,80,,,BIN 3
+280,9617,Gua,Mia,,84,,"4 prioridades ",BIN 2
+281,7364,Gua,Mex,,109,,,BIN 2
+282,9692,,,1,4,,,BIN 1
+283,9692,,,,74,,16,BIN 2
+284,9692,,,,38,76,8,BIN 3
+285,9367,,,,10,,,BIN 1
+286,9367,,,,70,,11,BIN 2
+287,9367,,,,72,1,12,BIN 3
+288,9289,,,6,2,,,BIN 1
+289,9289,,,,65,,7,BIN 2
+290,9289,,,,67,123,13,BIN 3
+291,9289,,,,12,,1,BIN 4
+292,6614,Gua,Pty,,,3,,BIN 1
+293,6614,Gua,Pty,,55,4,,BIN 2
+294,6614,Gua,Pty,,50,,,BIN 3
+295,7184,Gua,Pty,,,3,,BIN 1
+296,7184,Gua,Pty,,65,,,BIN 2
+297,7184,Gua,Pty,,78,,,BIN 3
+298,6888,Gua,Sjo,,20,,,BIN 1
+299,6888,Gua,Sjo,,17,51,,BIN 2
+300,6888,Gua,Sjo,,15,,,BIN 3
+301,6888,Gua,Sjo,,20,,,BIN 4
+302,7188,Gua,Pty,,,48,,BIN 1
+303,7188,Gua,Pty,,30,6,"10 prioridades ",BIN 2
+304,7188,Gua,Pty,,55,,"19 prioridades ",BIN 3
+305,9696,,,,84,,13,BIN 2
+306,9696,,,,71,,3,BIN 3
+307,5968,Gua,Frs,,9,,,BIN 5
+308,9426,Gua,Ord,,32,,,BIN 2
+309,9426,Gua,Ord,,96,,,BIN 3
+310,6159,Gua,Frs,,6,,,BIN 3
+311,9109,Gua,Jfk,,84,,,BIN 2
+312,9109,Gua,Jfk,,54,,"3 priority ",BIN 3
+313,5972,Gua,FRS,,8,,,BIN 1
+314,6618,Gua,Pty,,30,,,BIN 1
+315,6618,Gua,Pty,,69,,"4 prioridades ",BIN 2
+316,6618,Gua,Pty,,,12,,BIN 3
+317,7372,Gua,Mex,,30,,,BIN 1
+318,7372,Gua,Mex,,15,32,,BIN 2
+319,7372,Gua,Mex,,43,34,,BIN 3
+320,7372,Gua,Mex,,9,,,BIN 4
+321,9375,Gua,Dfw,,123,,"7 prioridades ",BIN 3
+322,9375,Gua,Dfw,,,11,,BIN 4
+323,7540,Gua,Mex,10,74,,,BIN 1
+325,6146,Gua,Frs,,5,,,BIN 2
+326,9113,Gua,Jfk,,75,,,BIN 2
+327,9113,Gua,Jfk,,72,,,BIN 3
+328,6867,Gua,Sjo,14,16,,,BIN 1
+329,7167,,,,,6,,BIN 1
+330,7167,Gua,Pty,,29,27,"21 prioridades ",BIN 2
+331,7167,Gua,Pty,,52,,"1 ",BIN 3
+332,6397,Gua,Pty,,35,73,35,BIN 2
+337,7177,Gua,Pty,,,,2 avis,BIN 1
+338,7177,Gua,Pty,,102,,,BIN 2
+339,7177,Gua,Pty,,24,130,,BIN 3
+340,7177,Gua,PTY,,0,0,0,BIN 4
+341,9712,Gua,Dfw,,100,,,BIN 2
+342,9712,Gua,Dfw,,50,78,,BIN 3
+344,9309,Gua,Mia,,23,,,BIN 3
+345,9231,Gua,Mia,,100,,,BIN 2
+346,9231,Gua,Mia,,28,79,,BIN 3
+347,9633,Gua,Mia,,99,,,BIN 2
+348,9633,Gua,Mia,,27,266,,BIN 3
+350,9383,Gua,Dfw,,96,,,BIN 2
+351,9640,Gua,Mia,,82,,"18 prioridades ",BIN 2
+352,9390,Gua,Dfw,,66,,"20 prioridades ",BIN 2
+353,9390,Gua,Dfw,,63,,"5 prioridades ",BIN 3
+354,6156,GUA,FRS,,2,,"1 comant ",BIN 2
+355,6156,GUA,FRS,,5,,,BIN 3
+356,9234,Gua,Dfw,,71,3,"15 prioridades ",BIN 2
+357,6885,Gua,Sjo,,30,,,BIN 1
+358,6885,Gua,Sjo,,10,2,,BIN 2
+359,6885,Gua,Pty,,1,100,,BIN 3
+360,7185,Gua,Pty,,,22,,BIN 1
+361,7185,Gua,Pty,,71,2,,BIN 2
+362,7185,Gua,Pty,,22,488,,BIN 3
+363,6889,,,,52,2,5,BIN 2
+364,7189,Gua,Pty,,30,,,BIN 1
+365,7189,Gua,Pty,,54,,Priority 15,BIN 2
+366,7189,Gua,Pty,,,50,,BIN 3
+367,7369,Gua,Mex,,,,12 Priority,BIN 2
+368,7369,Gua,Mex,,59,,,BIN 3
+369,7369,Gua,Mex,,,3,,BIN 4
+370,7537,Gua,Mex,8,,,,BIN 1
+371,7537,Gua,Mex,,,,48 equipaje regular,BIN 2
+372,7537,,,,,,,BIN 4
+373,7705,Gua,Mex,,,110,,BIN 2
+374,7705,Gua,Mex,,35,,9 p,BIN 3
+377,9110,Gus,Jfk,,5,,,BIN 4
+378,9701,Gua,DFW,,101,,,BIN 2
+379,9701,GUA,DFW,,65,5,,BIN 3
+380,9626,Gua,Mia,12,,,,BIN 1
+381,9626,Gua,Mia,,84,,8 maletas priority,BIN 2
+382,9626,Gua,Mia,,70,27,,BIN 3
+383,9626,Gua,Mia,,,10,,BIN 4
+384,9376,GUA,MIA,,110,,,BIN 2
+385,9376,GUA,MIA,,45,,,BIN 3
+386,9298,Gua,Mia,,67,7,20 maletas Priority,BIN 2
+387,9298,Gua,Mia,,67,,,BIN 3
+388,7541,,,,,,,BIN 5
+389,6423,Gua,Pty,,30,,"35 prioridades ",BIN 2
