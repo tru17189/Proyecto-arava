@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html>
+        <style>
+            table {
+                position: relative;
+                left: 5%;
+                width:90%;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #t01 tr:nth-child(even) {
+                background-color: #d7dce8;
+            }
+            #t01 tr:nth-child(odd) {
+                background-color: #f1f1f3;
+            }
+            #t01 th {
+                background-color: #375490;
+                color: white;
+            }
+            .title {
+                position: relative;
+                left: 5%;
+                width: 89.5%;
+                background-color: #375490;
+                color: white;
+                border: 3px solid black;
+                border-collapse: collapse;
+                font-family: Impact;
+                font-size: 150%;
+                }
+            .warning {
+                position: relative;
+                left: 5%;
+                background-color: #EDEDED;
+                border: 2px solid black;
+                width: 89.5%;    
+                height: 110px;
+                font-family: Arial;
+                }
+        </style>
+        <body>
+            <table id='t01' style='width: 85%; padding: 10px; height: 100;'>
+                <tr>
+                    <th colspan='2' Style='background-color:#c5c4c4;color:black; text-align: center;'>REPORTE MEJORA EXTERNA</th>
+                    <th colspan='2'; Style='background-color:#c5c4c4; text-align: center;'>
+                        <strong style='position:relative;top:-20px;color:black; text-align: center;'>CORRELATIVO</strong>
+                        <strong style='position:relative;top:0px;left:-85px;color:blue; text-align: center;'>
+                                RME "&Day&"-"& NumeroCorrelativo&"-"&Year&"
+                        </strong>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan='2'>Elaborado Por</th>
+                    <th colspan='2'>Fecha</th>
+                </tr>
+                <tr>
+                    <th colspan='2' Style='background-color:#d7dce8;'>"&Elaborador&"</th>
+                    <th colspan='2' Style='background-color:#d7dce8;'>"&Fecha&"</th>
+                </tr>
+                <tr>
+                    <th colspan='1'>Cliente</th>
+                    <th colspan='2'>Area del evento</th>
+                    <th colspan='1'>Departamento que reporta</th>
+                </tr>
+                <tr>
+                    <th colspan='1' Style='background-color:#d7dce8;'>"&ClientR&"	</th>
+                    <th colspan='2' Style='background-color:#d7dce8;'>"&Lugar&"</th>
+                    <th colspan='1' Style='background-color:#d7dce8;'>"&DirigidoA&"</th>
+                </tr>
+                <tr>
+                    <th colspan='1'>Numero de vuelo</th>
+                    <th colspan='2'>Matricula</th>
+                    <th colspan='1'>Tipo de aeronave</th>
+                </tr>
+                <tr>
+                    <th colspan='1' Style='background-color:#d7dce8;'>"&FlightNumber&"</th>
+                    <th colspan='2' Style='background-color:#d7dce8;'>"&TailNumber&"</th>
+                    <th colspan='1' Style='background-color:#d7dce8;'>"&AircraftType&"</th>
+                </tr>
+                <tr>
+                    <th colspan='4'>TIPO DE EVENTO</th>                    
+                </tr>
+                <tr>
+                    <th colspan='4' Style='background-color:#d7dce8;'>"&TipoDeEventoComboBox.Selected.Value&"</th>
+                </tr>
+                <tr>
+                    <th colspan='4'>DESCRIPCION</th>                    
+                </tr>
+                <tr>
+                    <th colspan='4' Style='background-color:#d7dce8;'>"&DescripcionInput.Text&"</th>
+                </tr>
+                <tr>
+                    "&Image1&"
+                    "&Image2&"
+                    "&Image3&"
+                    "&Image4&"
+                    "&Image5&"
+                    "&Nohayfotografia&"
+                </tr>
+            </table>
+        </body>
+    </html>
