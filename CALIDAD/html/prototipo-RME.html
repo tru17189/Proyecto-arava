@@ -1,116 +1,102 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-        <style>
-        table {
-            position: relative;
-            left: 5%;
-            width:90%;
-        }
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 15px;
-            text-align: left;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        #t01 tr:nth-child(even) {
-            background-color: #d7dce8;
-        }
-        #t01 tr:nth-child(odd) {
-            background-color: #f1f1f3;
-        }
-        #t01 th {
-            background-color: #375490;
-            color: white;
-        }
-        .title {
-            position: relative;
-            left: 5%;
-            width: 89.5%;
-            background-color: #375490;
-            color: white;
-            border: 3px solid black;
-            border-collapse: collapse;
-            font-family: Impact;
-            font-size: 150%;
-            }
-        .warning {
-            position: relative;
-            left: 5%;
-            background-color: #EDEDED;
-            border: 2px solid black;
-            width: 89.5%;    
-            height: 110px;
-            font-family: Arial;
-            }
-        </style>
-    </head>
-    <body>
-        <table id='t01' style='width: 85%; padding: 10px; height: 100;'>
-            <tr>
-                <th colspan='2' Style='background-color:#c5c4c4;color:black; text-align: center;'>REPORTE MEJORA EXTERNA </th>
-                <th colspan='2'; Style='background-color:#c5c4c4; text-align: center;'>
-                  <strong style='position:relative;top:-20px;color:black; text-align: center;'>CORRELATIVO</strong>
-                  <strong style='position:relative;top:0px;left:-85px;color:blue; text-align: center;'>RME</strong>
-                  <strong style='position:relative;top:15px;left:-120px;color:blue; text-align: center;'>"&Day&"-"&                                   NumeroCorrelativo&"-"&Year&"</strong>
-                </th>
-            </tr>
-            <tr>
-                <th>Elaborado Por</th>
-                <th>No. Vuelo</th>
-                <th>Cliente</th>
-                <th>Departamento que reporta</th>
-            </tr>
-            <tr>
-                <td>"&Elaborador&"</td>
-                <td>"&FlightNumber&"</td>
-                <td>"&ClientR&"</td>
-                <td>"&DirigidoA&"</td>
-            </tr>
-            <tr>
-                <th>Tipo de Aeronave</th>
-                <th>Matricula</th>
-                <th>Lugar</th>
-                <th>Fecha</th>
-            </tr>
-            <tr>
-                <td>"&AircraftType&"</td>
-                <td>"&TailNumber&"</td>
-                <td>"&Lugar&"</td>
-                <td>"&Fecha&"</td>
-            </tr>
-            <tr>
-                <th style='border-style: solid; border-width: 2px 2px; size: 20px; font-size: 100%; text-align: center;                             padding:4px; height: 50;' colspan='4'>TIPO DE EVENTO</th>    
-            </tr>
-            <tr>
-                <th colspan='4' style='background-color:#c5c4c4;color: black;'>"&TipoDeEventoComboBox.Selected.Value&"</th>
-            </tr>
-            <tr>
-                <th style='border-style: solid; border-width: 2px 2px; size: 20px; font-size: 100%; text-align: center;                             padding:4px; height: 50;' colspan='4'>DESCRIPCION</th>    
-            </tr>
-            <tr>
-                <th colspan='4' style='background-color:#c5c4c4;color: black;'>"&DescripcionInput.Text&"</th>
-            </tr>
-            <tr>
-                <th style='border-style: solid; border-width: 2px 2px; size: 20px; font-size: 100%; text-align: center;                             padding:4px; height: 50;' colspan='4'>IMAGENES</th>    
-            </tr>
-            <tr>
-                <td style='border-style: solid; border-width: 2px 2px; size: 20px; font-size: 100%; text-align: center;                             padding:4px; height: 50;' colspan='4'></td>   
-                "&Image1&"
-                "&Image2&"
-                "&Image3&"
-                "&Image4&"
-                "&Image5&"
-                "&Nohayfotografia&"
-            </tr>
-            <tr>
-                <td colspan='4'>
-                    Firma del Elaborador:
-                    <img src="&JSON(PenInput1.Image, JSONFormat.IncludeBinaryData)&" width='200' height='100' >
-                </td>
-            </tr>
-        </table>    
-    </body>
+<html>
+  <head>
+    <style>
+      table, th, td {
+        border: 1px solid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        width: 20cm;
+      }
+
+      .circulo {
+          width: 30px;
+          height: 30px;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          background: #000000;
+          position: relative;
+          left: 17.3cm;
+          top: 3.1cm;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <p class='circulo'></p>
+      <tr>
+        <th></th>
+        <th colspan='5'>GRAVEDAD DEL RIESGO '&Day&'-'& NumeroCorrelativo&'-'&Year&'</th>
+      </tr>
+      <tr>
+        <th>PROBABILIDAD DEL RIESGO</th>
+        <th style='font-size: small;'>INSIGNIFICANTE 'E'</th>
+        <th style='font-size: small;'>MENOR 'D'</th>
+        <th style='font-size: small;'>MAYOR 'C'</th>
+        <th style='font-size: small;'>PELIGRO 'B'</th>
+        <th style='font-size: small;'>CATASTROFICO 'A'</th>
+      </tr>
+      <tr>
+        <th style='font-size: small;'>Frecuente (una vez en 1 mes)</th>
+        <th style='background-color: #ffff00;'>5E</th>
+        <th style='background-color: #ffff00;'>5D</th>
+        <th style='background-color: #ff0000;'>5C</th>
+        <th style='background-color: #ff0000;'>5B</th>
+        <th style='background-color: #ff0000;'>5A</th>
+      </tr>
+      <tr>
+        <th style='font-size: small;'>Ocasional (entre 1 - 12 meses)</th>
+        <th style='background-color: #ffff00;'>4E</th>
+        <th style='background-color: #ffff00;'>4D</th>
+        <th style='background-color: #ffff00;'>4C</th>
+        <th style='background-color: #ff0000;'>4B</th>
+        <th style='background-color: #ff0000;'>4A</th>
+      </tr>
+      <tr>
+        <th style='font-size: small;'>Remoto (entre 1 y 3 años)</th>
+        <th style='background-color: #00b050;'>3E</th>
+        <th style='background-color: #ffff00;'>3D</th>
+        <th style='background-color: #ffff00;'>3C</th>
+        <th style='background-color: #ffff00;'>3B</th>
+        <th style='background-color: #ff0000;'>3A</th>
+      </tr>
+      <tr>
+        <th style='font-size: small;'>Improbable (1 vez entre 3 - 7 años)</th>
+        <th style='background-color: #00b050;'>2E</th>
+        <th style='background-color: #00b050;'>2D</th>
+        <th style='background-color: #ffff00;'>2C</th>
+        <th style='background-color: #ffff00;'>2B</th>
+        <th style='background-color: #ffff00;'>2A</th>
+      </tr>
+      <tr>
+        <th style='font-size: small;'>Casi nunca (Casi inconcebible que el evento ocurra)</th>
+        <th style='background-color: #00b050;'>1E</th>
+        <th style='background-color: #00b050;'>1D</th>
+        <th style='background-color: #00b050;'>1C</th>
+        <th style='background-color: #00b050;'>1B</th>
+        <th style='background-color: #00b050;'>1A</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th style='font-size: small;'>'E' <p style='font-size: smaller;'>Consecuencias Leves, no existen o hay lesiones leves tratamiento de primeros auxilios o daños a la propiedad insignificantes</p></th>
+        <th style='font-size: small;'>'D' <p style='font-size: smaller;'>Lesiones menores o enfermedades ocupacionales provocando días de pérdida de trabajo y daños menores a la propiedad</p></th>
+        <th style='font-size: small;'>'C' <p style='font-size: smaller;'>Lesiones serias, pero no permanentes y significan daño a la propiedad</p></th>
+        <th style='font-size: small;'>'B' <p style='font-size: smaller;'>Discapacidad permanente o enfermedades ocupacionales, un mayor daño a la propieda</p></th>
+        <th style='font-size: small;'>'A' <p style='font-size: smaller;'>1) Destrucción de equipo o equipamiento. 2) Muertes múltiple</p></th>
+      </tr>
+      <tr>
+        <th></th>
+        <th colspan='2' style='font-size: smaller;'>REGION ACEPTABLE/RIESGO BAJO</th>
+        <th colspan='2' style='font-size: smaller;'>REGION TOLERABLE/RIESGO MEDIO</th>
+        <th style='font-size: smaller;'>REGION  INTOLERABLE/RIESGO ALTO</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th colspan='2' style='background-color: #00b050; font-size: smaller;'>3E, 2D, 2E, 1A, 1B, 1C, 1D, 1E</th>
+        <th colspan='2' style='background-color: #ffff00; font-size: smaller;'>5D, 5E, 4C, 4D, 4E, 3B, 3C, 3D, 2A, 2B, 2C</th>
+        <th style='background-color: #ff0000; font-size: smaller;'>5A, 5B, 5C, 4A, 4B, 3A</th>
+      </tr>
+    </table>
+  </body>
+</html>
