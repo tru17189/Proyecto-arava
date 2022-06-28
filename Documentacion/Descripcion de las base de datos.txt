@@ -40,7 +40,7 @@ A continuación resumiré algunos datos importantes que querrás saber sobre est
 
     -   desglose_cargado_saliendo_pxs: En esta tabla es donde se guarda la información que los usuarios ingresan desde la aplicación de ERP en el formulario de 
 	Atención de aeronave en la sección de desglose cargado saliendo especificamente para los usuarios que son del departamento de PXS (pantalla en powerapps: 
-	MovimientoEquipaje(PXS)). La columna 'id' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
+	MovimientoEquipaje(PXS)). La columna 'no_correlativo' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
 
     -   equipos: Su propósito es llevar registro de los equipos (motorizados/no motorizados) que le pertenecen a la compañia, esta información se comparte con la 
 	aplicacion de ERP especificamente para el area de Equipo utilizado en el vuelo aunque claro las aplicaciones solo extraen los tipos de aeronave de los clientes
@@ -93,65 +93,53 @@ A continuación resumiré algunos datos importantes que querrás saber sobre est
 	aeronave en la sección de movimiento de equipaje carga y otros entrando/saliendo especificamente para el area de pxs (pantalla en powerapps: 
 	MovimientoEquipaje(PXS)). La columna 'no_correlativo' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
 
-    -   movimiento_de_carga_fbo: En esta tabla es donde se guarda la información que los usuarios ingresan 
-    desde la aplicación de ERP en el formulario de Atención de aeronave en la sección de movimiento de 
-    equipaje carga y otros entrando/saliendo especificamente para el area de FBO. La columna 
-    'no_correlativo' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
+    -   movimiento_de_carga_fbo: En esta tabla es donde se guarda la información que los usuarios ingresan desde la aplicación de ERP en el formulario de Atención de 
+	aeronave en la sección de movimiento de equipaje carga y otros entrando/saliendo especificamente para el area de FBO (pantalla en powerapps: 
+	AtensionAeronave(FBO)). La columna 'no_correlativo' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
 
-    -   operadores: Su propósito es llevar registro de los operadores con los que trabajamos, esta 
-    información se comparte con todas las de órdenes de servicio. Esta table tiene la llave primaria 
-    de muchas otras relaciones con otras tablas de este tipo.
+    -   operadores: Su propósito es llevar registro de los operadores (aerolineas) con los que trabajamos, esta información se comparte con todas las de órdenes de 
+	servicio. Esta table tiene la llave primaria de muchas otras relaciones con otras tablas de este tipo.
 
-    -   personal: En la aplicacion de ERP en la seccion de FUNCIONES DEL PERSONAL EN LA OPERACION en el 
-    formulario de atensionde aeronave, la forma en la que sabe que persona pertenece a cual categoria es 
-    por medio de esta tabla, la misma maneja solamente registros booleanos por lo mismo, ya que todas
-    sus columnas son las categorias de funciones de personal en la operacion. Aconsejo eliminar esta 
-    tabla y usar solomanete la tabla de personal_general.  
+    -   personal: En la aplicación de ERP en la sección de funciones del personal en la operación (pantalla en powerapps: PersonalTextos) en el formulario de 
+	atención de aeronave, a través de los registros de esta tabla es como la aplicación del ERP sabe que persona, pertenece a cada una de las categorías que sé
+	Pueden encontrar en esa sección. Con esta tabla tengo dos recomendaciones que creo que son necesarias, primero que la forma en la que está escritos los 
+	nombres sea igual a como están escritos en la tabla 'Personal_General' o crear una llave foránea que las una, la segunda recomendación es cambiarle el nombre
+	Pues realmente puede parecer la principal del personal y no es el caso.
 
-    -   personal_asignado_cgo: Esta tabla es donde se guarda la información que los usuarios ingresan 
-    desde la aplicación de ERP en el formulario de Atención de aeronave en la sección de Personal 
-    asignado especoficamente para el personal de CGO. La columna 'no_correlativo' hace referencia a la 
-    columna 'no_correlativo' de la tabla 'itinerarios'.
+    -   personal_asignado_cgo: Esta tabla es donde se guarda la información que los usuarios ingresan desde la aplicación de ERP en el formulario de Atención de 
+	aeronave en la sección de Personal asignado especoficamente para el personal de CGO. La columna 'no_correlativo' hace referencia a la columna 'no_correlativo' 
+	de la tabla 'itinerarios'.
 
-    -   personal_compartimiento_pxs: Esta tabla es donde se guarda la información que los usuarios 
-    ingresan desde la aplicación de ERP en el formulario de Atención de aeronave en la sección de 
-    Personal asignado especificamente para el personal de CGO. La columna 'no_correlativo' hace 
-    referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
+    -   personal_compartimiento_pxs: En esta tabla es donde se guarda la información que los usuarios ingresan desde la aplicación de ERP en el formulario de Atención 
+	de aeronave en la sección de Personal asignado especificamente para el personal de PXS (pantalla en powerapps: PersonalTextos). La columna 'no_correlativo' 
+	hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
 
-    -   Personal_General: Es una version digital del master del personal, deberia de ser la tabla principal de 
-    donde se saca la informacion de los empleados de la empresa. Se usa en ERP y se puede comenzar a usar
-    en el resto de aplicaciones, aunque aun no esta completa hay varios departamentos los cuales su 
-    personal aun no se ha ingresado.
+    -   Personal_General: Es una versión digital del master del personal, debería de ser la tabla principal de donde se saca la información de los empleados de la 
+	empresa. Se usa en ERP y se puede comenzar a usar en el resto de aplicaciones, aunque aún no esta completa hay varios departamentos los cuales su personal aun
+	no se ha migrado a la tabla, usar la versión más nueva del master del personal para esto.
 
-    -   resultados_sla: En la seccion del SLA hay varios campos que solo son la combinacion de otros,
-    por ejemplo puede ser la suma de dos columnas o la division de otras, todas las columnas de esta 
-    tabla son calculos hechos usando las otras preguntas del SLA, osea se genera automaticamente la
-    informacion que aparece aqui.
+    -   resultados_sla: En la sección del SLA hay varios campos que solo son la combinación de otros (ósea son fórmulas que usan los resultados o sumatorias de las 
+	demas columnas), por ejemplo puede ser la suma de dos columnas o la division de otras, todas las columnas de esta tabla son calculos hechos usando las otras 
+	Preguntas del SLA, ósea la información que se genera aquí se genera de forma automática. 
 
-    -   sla_capacitacion: Para la seccion fija (osea que solo ciertos usuarios pueden interactuar con 
-    la misma) de capacitacion de aeropuerto, en esta tabla se guarda la informacion que se recopila, 
-    esa seccion la podemos encontrar en la pantalla de consultar a la par filtro si somos un usuario 
-    seleccionado. 
+    -   sla_capacitacion: Para la sección fija (ósea que solo ciertos usuarios pueden interactuar con la misma) de capacitación de aeropuerto, en esta tabla se guarda 
+	la información que se recopila, en esa sección la podemos encontrar en la pantalla de consultar a la par filtro si somos un usuario seleccionado. 
+ 
+    -   SLA2: En esta tabla es donde se guarda la información que los usuarios ingresan desde la aplicación de ERP en el formulario de SLA (pantalla en powerapps: 
+	SLA_Screen). La columna 'no_correlativo' hace referencia a la columna 'no_correlativo' de la tabla 'itinerarios'.
 
-    -   SLA2: Aqui se guarda todo lo recolectado con el SLA (aplicacion ERP), la seccion que se 
-    encuentra luego de presionar el boton verde que hay en todas laS tarjetas.
+    -   tipos_combustibles: Su propósito es llevar registro de los combustibles con los que trabajamos, esta información se comparte con todas las aplicaciones de 
+	órdenes de servicio y ERP, aunque claro las aplicaciones solo extraen los combustibles de los clientes que manejan.
 
-    -   tipos_combustibles: Su propósito es llevar registro de los combustibles con los que trabajamos, 
-    esta información se comparte con todas las aplicaciones de órdenes de servicio, aunque claro las 
-    aplicaciones solo extraen los combustibles de los clientes que manejan.
+    -   tipos_equipos: Su propósito es llevar registro de los tipos de equipos con los que trabajamos, esta información se comparte con todas las aplicaciones de 
+	órdenes de servicio y ERP, aunque claro las aplicaciones solo extraen los tipos de equipos de los clientes que manejan.
 
-    -   tipos_equipos: Su propósito es llevar registro de los tipos de equipos con los que trabajamos, 
-    esta información se comparte con todas las aplicaciones de órdenes de servicio, aunque claro las 
-    aplicaciones solo extraen los tipos de equipos de los clientes que manejan.
+    -   usuarios: Esta tabla tiene todos los correos y contraseñas que acepta la aplicación del ERP, si se quiere agregar un nuevo correo para la aplicación de ERP, 
+	se debe hacerse desde esta tabla, se aconseja usar su código de empleado como contraseña, eso se ha intentado con la mayoría de usuarios hasta este punto. 
 
-    -   usuarios: Esta tabla tiene todos los correos y contraseñas que acepta la aplicacion del ERP, 
-    si se quiere agregar un nuevo correo para la aplicacion de ERP, se debe hacerse desde esta tabla, 
-    se aconseja usar su codigo de empleado como contraseña, eso se ha intentado con la mayoria hasta 
-    ese punto. 
+    -   vuelos: Su propósito es llevar registro de los números de vuelo con los que trabajamos, esta información se comparte con todas las aplicaciones de órdenes de 
+	servicio y ERP, aunque claro las aplicaciones solo extraen los números de vuelo de los clientes que manejan. En la columna 'operador' de esta tabla solo 
+	encontrarás números ej. 1, si quieres saber que operador representa cada número revisa esa información en la tabla 'operadores'. A través de la columna 
+	'operador' se conecta con la tabla 'operadores'.
 
-    -   vuelos: Su propósito es llevar registro de los numeros de vuelo con los que trabajamos, 
-    esta información se comparte con todas las aplicaciones de órdenes de servicio, aunque claro las 
-    aplicaciones solo extraen los numeros de vuelo de los clientes que manejan. En la columna 'operador' 
-    de esta tabla solo encontraras números ej. 1, si quieres saber que operador representa cada número 
-    revisa esa información en la tabla 'operadores'. A través de la columna 'operador' se conecta con la 
-    tabla 'operadores'.
+### Recomendaciones ###
