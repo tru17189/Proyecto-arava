@@ -1,0 +1,12 @@
+id_parametro,crew_chief_inicio,crew_chief_final,operador_inicio,operador_final,agente_rampa_inicio,agente_rampa_final,agente_mostrador_inicio,agente_mostrador_final,agente_fajas_inicio,agente_fajas_final,agente_rayos_x_inicio,agente_rayos_x_final,agente_limpieza_inicio,agente_limpieza_final
+1,ETA,ETD,ETA,ETD,ETA,ETD,ETD,ETD,ETA,ETA,ETD,ETD,ETA,ETA
+2,ETD,ETD,ETD,ETD,ETD,ETD,ETD,ETD,,,ETD,ETD,,
+3,ETA,ETA,ETA,ETA,ETA,ETA,,,ETA,ETA,,,ETA,ETA
+4,ETA,ETD,ETA,ETD,ETA,ETD,ETD,ETD,ETA,ETA,ETD,ETD,ETA,ETA
+5,ETD,ETD,ETD,ETD,ETD,ETD,ETD,ETD,,,ETD,ETD,,
+6,ETA,ETA,ETA,ETA,ETA,ETA,,,ETA,ETA,,,ETA,ETA
+7,ETA,ETD,ETA,ETD,ETA,ETD,ETD,ETD,ETA,ETA,ETD,ETD,ETA,ETA
+8,ETA,ETD,ETA,ETD,ETA,ETD,ETD,ETD,ETA,ETA,ETD,ETD,ETA,ETA
+9,ETA,ETD,ETA,ETD,ETA,ETD,ETD,ETD,ETA,ETA,ETD,ETD,ETA,ETA
+10,ETD,ETD,ETD,ETD,ETD,ETD,ETD,ETD,,,ETD,ETD,,
+11,ETA,ETA,ETA,ETA,ETA,ETA,,,ETA,ETA,,,ETA,ETA

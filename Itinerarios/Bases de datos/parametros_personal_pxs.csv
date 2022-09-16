@@ -1,0 +1,12 @@
+id_parametro,aeronave,tipo_operacion,crew_chief,operador,agente_rampa,agente_mostrador,agente_fajas,agente_rayos_x,agente_limpieza
+1,290,DESPACHO,1,1,6,1,0,2,0
+2,290,TRANSITO,1,1,6,1,3,2,6
+3,290,PERNOCTA,1,1,6,0,3,0,6
+4,257,TRANSITO,1,1,5,1,2,1,5
+5,257,DESPACHO,1,1,5,1,0,1,0
+6,257,PERNOCTA,1,1,5,0,3,0,5
+7,294,TRANSITO,1,1,6,1,1,1,6
+8,1,TRANSITO,1,1,5,1,1,1,5
+9,3,TRANSITO,1,1,4,1,1,1,4
+10,295,DESPACHO,1,1,3,1,0,1,0
+11,295,PERNOCTA,1,1,3,0,3,0,3

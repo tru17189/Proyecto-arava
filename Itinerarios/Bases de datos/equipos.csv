@@ -256,7 +256,14 @@ AT-327,0,False,0,N/A,N/A
 AT-328,3,False,0,N/A,N/A
 AT-329,2,True,1,N/A,N/A
 AT-33,5,False,0,N/A,2.018.500.017
+AT-334,2,False,0,N/A,N/A
+AT-336,2,False,0,N/A,N/A
+AT-337,2,False,0,N/A,N/A
+AT-339,2,False,0,N/A,N/A
 AT-34,5,False,0,N/A,2.018.500.018
+AT-341,2,False,0,N/A,N/A
+AT-345,2,False,0,N/A,N/A
+AT-347,17,True,2,N/A,N/A
 AT-35,5,False,0,N/A,2.018.500.019
 AT-36,5,False,0,N/A,2.018.500.020
 AT-37,5,False,0,N/A,2.018.500.021
@@ -333,3 +340,4 @@ MA-16,4,False,0,N/A,2.015.500.053
 MA-17,4,False,0,N/A,N/A
 MA-18,10,False,0,N/A,N/A
 MA-7,4,False,0,N/A,N/A
+N/A,1,False,0,N/A,N/A
