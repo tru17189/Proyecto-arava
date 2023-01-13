@@ -9,7 +9,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 73,139,True,9,9,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 74,126,True,7,7,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 75,136,True,5,6,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,1,True,,,,,
-76,147,True,8,8,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+76,147,True,8,8,,False,,0,0,,True,15,2,,False,,0,0,nan,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 77,63,False,0,0,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 78,81,True,6,6,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 81,123,True,6,8,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,2,True,,,,,
@@ -264,7 +264,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 2001,132,True,1,3,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,2,True,,,,,
 2002,124,True,15,15,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 2003,160,True,9,7,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,True,,,,,
-2004,158,True,15,8,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,,False,False,0,nan,False,0,0,True,False,-7,True,,,,,
+2004,158,True,15,8,,False,,0,0,nan,False,,0,nan,False,,0,0,,True,22,1,,False,False,0,,False,0,0,True,False,-7,True,0,,,,
 2007,129,True,2,3,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,1,True,,,,,
 2008,132,True,2,2,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 2010,154,True,6,4,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,False,,,,,
@@ -277,7 +277,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 2018,158,True,9,9,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 2019,152,True,18,16,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,True,,,,,
 2022,120,True,13,13,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
-2023,158,True,11,11,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+2023,138,True,5,5,,False,,0,0,,False,,0,,False,,0,0,nan,False,,0,nan,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 2024,152,True,18,16,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,True,,,,,
 2025,98,True,1,1,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,22,1,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 2026,97,True,6,5,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-1,True,,,,,
@@ -301,6 +301,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 2162,107,True,6,6,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 2163,137,True,8,7,NO HUBO INGRESO A RED POR FALLO EN DISCO DURO,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-1,True,,,,,
 2164,150,True,8,8,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+2404,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 3041,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,,,,,
 3749,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,,,,,
 3838,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
@@ -703,7 +704,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 4755,143,True,5,5,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4756,155,True,1,1,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4757,149,True,6,6,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
-4758,127,True,7,5,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,,False,False,0,nan,False,0,0,True,False,-2,False,,,,,
+4758,127,True,7,5,,False,,0,0,nan,False,,0,nan,False,,0,0,,True,22,1,,False,False,0,,False,0,0,True,False,-2,False,0,,,,
 4759,93,True,8,10,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,2,True,,,,,
 4760,108,True,13,13,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4761,116,True,16,14,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,False,,,,,
@@ -730,7 +731,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 4827,136,True,29,26,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-3,False,,,,,
 4828,150,True,25,17,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-8,False,,,,,
 4829,147,True,1,1,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
-4830,146,True,7,7,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+4830,146,True,7,7,,False,,0,0,nan,False,,0,nan,False,,0,0,,True,22,1,,False,False,0,,False,0,0,True,False,0,True,0,,,,
 4831,91,True,13,13,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4832,95,True,5,5,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4833,71,False,0,0,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
@@ -741,7 +742,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 4838,148,True,18,18,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
 4839,111,True,2,1,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-1,False,,,,,
 4851,108,True,2,2,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
-4852,155,True,14,14,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+4852,155,True,14,14,,False,,0,0,,True,15,1,,False,,0,0,nan,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 4853,123,True,17,18,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,1,True,,,,,
 4854,145,True,3,1,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-2,False,,,,,
 4855,138,True,6,8,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,2,True,,,,,
@@ -751,7 +752,7 @@ no_correlativo,cantidad_pxs_outbound,vuelo_con_equipaje_priority_pxs,cantidad_eq
 4859,145,True,18,15,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-3,False,,,,,
 4860,145,True,28,14,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-14,False,,,,,
 4861,143,True,14,14,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
-4862,56,True,6,6,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,0,True,,,,,
+4862,126,True,6,6,,False,,0,0,,False,,0,,False,,0,0,nan,False,,0,nan,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 4863,157,True,9,10,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,1,True,,,,,
 4864,140,True,8,7,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-1,False,,,,,
 4865,141,True,39,28,nan,False,,0,0,nan,False,,0,nan,False,,0,0,nan,False,,0,nan,False,False,0,nan,False,0,0,True,False,-11,False,,,,,
@@ -1352,8 +1353,6 @@ TODO OK",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,Tr
 18558,0,False,0,0,,False,,0,0,,True,81,1,CM380 24/07/22 daño,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
 18610,35,True,3,3,"todo ok ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 18611,44,True,2,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
-18612,52,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,3,3,True,False
-18613,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 18615,76,True,4,4,"Todo ok ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 18701,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 18702,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
@@ -1392,7 +1391,6 @@ TODO OK",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,Tr
 19005,0,False,0,0,,False,,0,0,,True,81,1,CM496 16/08/22 daño,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
 19006,0,False,0,0,,False,,0,0,,True,81,1,Cm390 del 23/07/22 daño,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
 19016,0,False,0,0,,False,,0,0,,True,81,1,Cm496 19/07/22 daño,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
-19088,0,True,10,8,"Equipaje de diferencia no colillado pero cargado en el mismo bin ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,True
 19193,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 19197,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 19323,113,True,10,10,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,10,2,True,False
@@ -1487,7 +1485,6 @@ BIN2 - 04 SJO",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,
 19855,59,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 19856,79,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 19857,79,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
-19967,49,True,6,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,True
 19981,63,True,8,7,"Maleta PB 0230731975 detectada adicional ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
 20004,60,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 20021,82,True,8,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
@@ -1643,61 +1640,406 @@ Santos/AlejandroSR",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,F
 21655,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 21826,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 22813,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+23262,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 24105,107,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+24541,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 24812,97,True,2,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
 24813,94,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+24814,148,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24815,92,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24816,73,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24817,105,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
 24818,57,True,7,5,"se tuvo un cambio de ultimo minuto, ya que el avion estaba fuera de grafica, PTY sol cambio de equipaje de el bin 1 al bin 3, esto genero un descuadre en las ubicaciones del equipaje pty",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,1,2,False,False
+24819,80,True,10,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+24820,92,True,9,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
 24821,75,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24822,128,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24824,58,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24825,85,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
-24926,151,True,7,8,"bag normal tenia colilla PB 0230716465 ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+24827,79,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24828,64,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24927,121,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
-24931,131,True,10,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,1,1,False,True
+24928,148,True,7,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+24929,129,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24930,113,True,7,7,,False,,0,0,,True,91,1,Equipaje saqueado,False,,0,0,,False,,0,,False,False,0,,False,1,0,True,False,0,True,0,2,2,False,False
+24931,160,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,6,6,True,False
 24932,155,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,False,False
+24933,134,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24934,150,True,8,8,"Todo ok ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24935,147,True,13,12,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
 24936,127,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
-24937,141,True,18,18,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+24937,141,True,18,18,,False,,0,0,,False,,0,,False,,0,0,,True,11,1,Equipaje mal colillado,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+24938,126,True,7,5,RED detecta 2 equipajes PB que no van etiquetados.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,True,False
+24939,147,True,12,12,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24940,144,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24941,153,True,14,14,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+24942,152,True,23,23,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24943,150,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24944,128,True,18,18,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24945,111,True,8,6,"UNA MALETA ABORDADA EN BIN3, SIENDO TRANSFERENCIA DE AVIANCA, SIN SER IDENTIFICADA COMO PRIORITY",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,False
-24948,153,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24947,118,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24948,116,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+24949,144,True,16,17,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+24950,152,False,0,0,,False,,0,0,,True,81,1,Daño de equipaje,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+24951,112,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 24952,136,True,4,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+24953,161,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24954,138,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+24955,108,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25074,0,False,0,0,,False,,0,0,,True,83,1,Equipaje dañado luego de un rezago.,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+25081,0,False,0,0,,False,,0,0,,True,83,1,Equipaje dañado luego de un rezago,False,,0,0,,True,"83,81",2,daños de equipaje,False,False,0,,False,0,2,True,False,0,True,0,,,False,False
 25219,103,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 25220,117,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25221,153,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25222,124,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25223,66,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 25224,150,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25225,134,True,1,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,0,False,True
+25226,161,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25227,102,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25228,73,True,4,3,RED detecta un equipaje que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
 25229,136,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25230,68,True,3,3,Equipaje se abora en BIN3 según LIR.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,3,3,True,False
+25231,140,True,7,5,RED detecta 2 equipajes que no van etiquetados.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,True
 25232,132,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,,False,False
 25233,111,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25234,81,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25235,110,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25236,140,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25237,108,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25238,143,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25239,141,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25240,71,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25241,125,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25242,128,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25243,82,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25244,66,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+25245,154,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25246,147,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25247,75,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25394,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+25673,0,False,0,0,,False,,0,0,,True,81,1,Daño de equipaje,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+25681,0,False,0,0,,False,,0,0,,True,81,1,Daño de equipaje,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+25684,0,False,0,0,,False,,0,0,,True,81,1,Daño de equipaje,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+25690,0,False,0,0,,False,,0,0,,True,81,1,Daño de equipaje,False,,0,0,,False,,0,,False,False,0,,False,0,1,True,False,0,True,0,,,False,False
+25691,0,False,0,0,,False,,0,0,,True,92,1,Equipaje dañado y saqueado simultaneamente,False,,0,0,,False,,0,,False,False,0,,False,1,0,True,False,0,True,0,,,False,False
 25816,142,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
 25817,111,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25818,156,True,8,7,RED detecta un equipaje PB que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+25819,156,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25820,121,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25821,120,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25822,147,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+25823,150,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,22,,True,False
+25824,161,True,14,14,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25825,154,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25826,128,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25827,162,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25828,112,True,2,2,Equipaje se aborda en BIN3 según LIR.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,3,3,True,False
+25829,156,True,1,0,RED detecta un equipaje PB que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
 25830,146,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25831,160,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25832,137,True,8,7,RED detecta un equipaje PB que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,False
+25833,156,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25834,151,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25835,147,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25837,152,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25838,147,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25839,144,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25840,107,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25841,105,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25842,136,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25843,154,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25844,149,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25845,127,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25984,84,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,False,False
 25985,97,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25986,115,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25987,124,True,3,3,Equipajes en 1bin y 2 bin,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+25988,100,True,10,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25989,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
 25990,119,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25991,69,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+25992,108,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25993,109,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
 25994,96,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 25995,113,True,10,10,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+25996,51,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+25997,99,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
 25998,97,True,1,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,1,1,False,True
 25999,110,True,8,7,RED detecta un equipaje PB que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,1,1,False,False
+26000,103,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26001,104,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 26002,123,True,19,18,RED detecta un equipaje PB que no va etiquetado.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
 26003,120,True,15,15,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26004,112,True,12,12,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26005,117,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 26006,114,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 26007,89,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26008,122,True,21,21,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26009,104,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
 26010,106,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26011,117,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26012,122,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26013,117,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+26179,128,True,4,3,RED detecta un equipaje que no va etiquetado como tal.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+26184,41,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,3,3,True,False
+26189,120,True,9,8,"CARGADAS EN BIN 3 POR INSTRUCCIONES DE LIR, RED DETECTA PB ADICIONAL 0230089982",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,3,3,False,True
+27195,97,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27196,122,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27197,58,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27198,119,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27199,86,True,7,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27200,158,True,9,14,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,5,True,0,2,2,False,True
+27201,129,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27202,84,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27203,90,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27204,161,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27205,128,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+27206,126,True,13,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,True
+27292,133,True,8,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27293,155,True,6,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27294,154,True,13,12,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,False
+27295,150,True,12,12,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27296,160,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27298,145,True,15,18,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,True,0,2,2,False,True
+27300,154,True,20,20,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27301,119,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27302,147,True,12,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-6,False,0,2,2,False,False
+27304,144,True,14,14,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27306,112,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27307,146,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27308,146,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27309,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+27310,161,True,8,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,True,0,2,2,False,False
+27311,159,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27312,152,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27313,160,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27314,157,True,2,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27316,153,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27317,154,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27318,157,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27319,155,True,17,16,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,False
+27320,160,True,8,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,2,True,0,2,2,False,True
+27321,157,True,11,12,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27322,141,True,16,16,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27588,98,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27589,136,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27590,130,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+27591,129,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27592,144,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27593,117,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27594,151,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+27595,134,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+27596,98,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27597,119,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27598,126,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27599,148,True,5,5,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+27600,150,True,10,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27601,86,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27602,108,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27603,114,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27604,139,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27605,145,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27606,153,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27607,109,True,3,3,Todo ok,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27608,157,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27609,136,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27610,94,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27611,118,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27612,125,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27613,119,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27614,148,True,1,1,"Busqueda de equipajes ",True,171,1,2,"Busqueda de equipajes ",False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27615,138,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27616,153,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27754,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+27892,107,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27893,116,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27894,110,True,13,12,"Bin 3 segùn LIR 1 PB PTY ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+27895,138,True,7,8,"PB SJO BIN 3 según lir 
+0230759781
+URENAVARGAS/WILLIAM poseía etiqueta de PB física y en red no la detecta como PB",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,3,3,False,True
+27896,108,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27897,114,True,13,13,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+27898,135,True,13,12,"BIN1 01 - BIN2 12 
+RED detecta un equipaje PB que no va etiquetado como tal.",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,False
+27899,144,True,15,15,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+27900,112,True,6,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27901,83,True,8,8,07 BIN2 SJO / 01 BIN4 PTY ABORDADA SEGÚN LIR,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27902,115,True,19,19,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27903,111,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27904,120,True,12,15,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,True,0,2,2,False,True
+27905,131,True,15,16,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27906,81,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+27907,94,True,6,6,BIN2 SJO 5 - BIN3 PTY 1,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27908,129,True,9,9,,False,,0,0,,True,35,1,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,1,2,2,True,False
+27909,148,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27911,94,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27912,108,True,2,2,Todo ok,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27913,159,True,11,11,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27914,109,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27915,108,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27916,118,True,4,4,,False,,0,0,,True,35,1,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,1,2,2,True,False
+27917,122,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+27918,129,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27919,108,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+27920,133,True,8,9,"0230590136 GAMEZ/KEVIN, ESTA COLILLA LLEVABA ETIQUETA FÍSICA DE PRIORIDAD SAN JOSE ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27921,108,True,6,7,"Red no detecta este equipaje como prioridad, fisica con colilla prioridad 0230739506
+FIGUEROA/ANTHONYSTEEVE",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+27922,135,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28202,133,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28203,147,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28204,149,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28205,146,True,6,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,6,False,True
+28206,148,True,5,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+28207,154,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28208,153,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28209,162,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+28210,158,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28211,123,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28212,147,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+28213,157,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28214,157,True,3,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+28215,160,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28216,124,True,17,18,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,,False,True
+28217,153,True,3,3,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28219,146,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28221,152,True,9,9,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28222,145,True,7,7,"Todo ok ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28223,146,True,7,7,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28224,146,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28225,155,True,8,8,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28226,152,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28227,154,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,0,0,False,False
+28228,158,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28229,149,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28230,153,True,6,7,"0230591094
+BARRIOSESCOBAR/URSULAMS equipaje con colilla prioridad física ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,True,0,2,2,False,True
+28231,144,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28232,144,True,6,6,,False,,6,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+28670,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+29308,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+30610,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+30615,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+30620,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+30689,100,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30690,107,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+30691,160,True,20,24,"EN RED SE TIENE COMO EQUIPAJE NORMAL Y EN RAMPA SE RECIBIERON COMO PRIORIDAD 0230308210 MONTERREYSUAY/JOSEMARIA/ 0230307978 FASQUELLE/SOFIACHRISTINE/ 0230308211
+MONTERREYSUAY/JOSEMARIA/  0230307978 FASQUELLE/SOFIACHRISTINE",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,4,False,0,2,2,False,True
+30694,129,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30695,149,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30696,139,True,7,9,"""EN RED SE TIENE COMO EQUIPAJE NORMAL Y EN RAMPA SE RECIBIERON COMO PRIORIDAD 0230303223
+GONZALEZESPINOSA/MARIADELCARMENSRA / 0230304724 LOZANO/ALICESRA/  0230303224 GONZALEZESPINOSA/MARIADELCARMENSRA""",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,2,False,0,1,1,False,True
+30698,133,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+30699,143,True,14,17,"NO APLICA COLILLA PRIORITY Y LES FUE COLOCADA -0230194993
+LOPEZ/MARIANGELICA // 0230195793
+MENACHO/ELIASSR //0230195003
+LOPEZ/MARIANGELICA",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,False,0,2,2,False,False
+30700,139,True,10,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30702,153,True,11,14,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,True,0,2,2,True,False
+30703,143,True,11,12,"EQUIPAJE NO APLICA COLILLA PB SEGUN RED// 0230264519
+RODAS/KAREN",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,False,0,2,2,False,True
+30795,140,True,8,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-5,False,0,2,2,False,True
+30796,149,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30797,166,True,11,11,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30800,145,True,6,6,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30801,154,True,3,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,False,0,2,2,False,True
+30802,160,True,39,42,"""EN RED SE TIENE COMO EQUIPAJE NORMAL Y EN RAMPA SE RECIBIERON COMO PRIORIDAD 0230303223
+GONZALEZESPINOSA/MARIADELCARMENSRA / 0230304724 LOZANO/ALICESRA/  0230303224 GONZALEZESPINOSA/MARIADELCARMENSRA""",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,False,0,2,2,False,True
+30805,128,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30806,151,True,12,10,"RED DETECTA COMO PB SIN SER ETIQUETADAS//
+0230172868	BERMUDEZ/ANABELLASRA
+0230172373	MANSILLA/FRANCISCO
+0230173468	MADRINAN/LUISSR	
+
+RED NO RECONOCE COMO PB//
+0230171687	HINES/WILLIAMCRAIG",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,2,2,False,True
+30807,156,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30809,166,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30810,150,True,9,8,"RED IDENTIFICA COMO PB SIN COLILLA//
+0134103395	HONINGSAGUILAR/DAVIDABRAHAMMR
+0134103373	HONINGSAGUILAR/DAVIDABRAHAMMR
+
+
+RED NO IDENTIFICA COMO PB//
+0230190588	NATARENO/DEBORA",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+30811,153,True,8,7,equipaje PB adiconal en BIN 3  Y en rampa como equpaje normal  No. colillla 0230346322,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,False
+30813,158,True,7,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,2,True,0,8,2,False,False
+30814,158,True,13,13,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30815,150,True,15,14,"0230364796
+DASILVADASILVA/FRANKSR // EQUIPAJE NO CUENTA CON COLILLA PB, SEGÚN RED SI APLICA ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-1,False,0,2,2,False,True
+30817,160,True,17,17,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30818,164,True,14,14,"todo ok ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30819,163,True,9,9,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30821,159,True,13,13,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30822,161,True,32,32,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+30960,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,
+30964,0,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31085,95,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31086,120,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31087,151,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31088,137,True,13,13,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31090,119,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31091,122,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31092,150,True,10,10,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31095,139,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31096,151,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31098,151,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31099,153,True,3,3,NIL,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31100,165,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31102,141,True,2,2,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+31103,145,True,8,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,-2,False,0,1,1,False,True
+31104,121,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31106,153,True,4,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,2,True,0,2,2,False,True
+31107,166,True,10,10,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31108,155,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31110,160,True,11,11,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31111,154,True,11,11,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31112,152,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31382,108,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31383,127,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31384,111,True,0,0,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31385,146,True,0,0,PTY SE ABORDA EN BIN3 SEGÚN LIR.,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31387,139,True,15,15,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31388,120,True,0,0,"TODO OK ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31389,132,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31392,108,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31393,138,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31394,121,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31396,128,True,7,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31397,115,True,0,0,0230183592 DIAZ/DIANA Colilla con etiqueta pb fisicamente red no la detecta como PB,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,True
+31398,120,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,False
+31400,133,True,2,2,PTY BIN 3 según distribución,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31401,123,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31402,106,True,0,0,"EN RED SE DETECTA EQUIPAJE NORMAL Y EN FISICO SE RECIBE COMO PRIORIDAD 0230356312 SOTO/NELSON/ 0230356584 GROTZ/LUKASMR/ 0230356080
+ZUNIGA/JOSEANDRESSR 0230356548 PFUNDNER/ANNETTEMRS",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,False,True
+31404,149,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,1,1,True,False
+31405,103,True,0,0,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31406,116,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31408,115,True,14,14,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31409,159,True,0,0,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31410,135,True,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,,,True,False
+31682,130,True,8,8,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,False,False
+31683,134,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31684,151,True,1,1,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31685,139,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31687,140,True,5,5,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31688,134,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31689,154,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31692,151,True,2,2,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31694,161,True,1,1,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31696,148,True,4,7,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,3,True,0,2,2,False,True
+31697,151,True,5,6,"0230184362
+TOBARMORALES/OLGAMARIASRA colilla con etiqueta PB fisica red la detecta como normal ",False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,1,False,0,2,2,False,True
+31698,160,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31700,151,True,3,3,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31701,150,True,2,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,2,False,0,2,2,False,False
+31702,6,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31704,154,True,13,17,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,4,True,0,2,2,False,True
+31705,155,True,15,15,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31706,162,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31708,159,True,4,4,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31709,162,True,12,12,TODO OK,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31710,152,True,6,6,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+31945,134,True,4,4,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,True,0,2,2,True,False
+32019,0,False,0,0,,False,,0,0,,False,,0,,False,,0,0,,False,,0,,False,False,0,,False,0,0,True,False,0,False,,,,,

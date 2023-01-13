@@ -9,6 +9,9 @@ no_correlativo,observacion,crew_chief
 168,,104
 169,,121
 176,,121
+184,"Operación sin novedad 
+No informaron peso entrando 
+Solo saliendo ",89
 185,,103
 202,,104
 221,,121
@@ -150,6 +153,7 @@ no_correlativo,observacion,crew_chief
 3667,,4
 3712,,38
 3728,,49
+3879,"Operación sin novedad se atendió en rampa 01 de combexim ",98
 3884,"Operación sin novedad todo salió bien se atendio en rampa 01 de combex ",102
 4327,"44 - 3446.3 al 3447.3
 18:40 a 19:40",4
@@ -1050,7 +1054,6 @@ Utilizó planta eléctrica y neumáticas.
 No utilizó planta eléctrica.",100
 13264,"Operación sin novedad.
 No utilizó planta eléctrica.",100
-13265,Se atendió posición 1 de combex. No utilizó planta eléctrica.,100
 13279,"Operacion sin novedad 
 Se realizo breafin para asignacion de puestos",89
 13281,"Operacion sin novedad, no utilizo planta vuelo demorado ",149
@@ -1488,7 +1491,6 @@ Espacios en blanco es porque N/A.",101
 16099,,31
 16100,,46
 16101,,35
-16102,,35
 16203,,49
 16204,,35
 16205,,46
@@ -1670,7 +1672,6 @@ Espacios en blanco es porque N/A",101
 17026,"Operación sin novedad se atendió en rampa 2 de combex ",87
 17030,,150
 17033,"Operación sin novedad se atendió en rampa 1 de combex ",87
-17035,"Operación sin novedad se atendió en rampa 2 de combex ",87
 17041,"Operación sin novedad se atendió en rampa remota. ",98
 17046,"Operación sin novedad, no utilizó plantas salió vacío el vuelo",149
 17047,Se uso la escalera AT- 289,40
@@ -1806,7 +1807,6 @@ Se atendió rampa central de combex.",100
 Espacios en blanco es porque N/A ",101
 17416,"Operación sin novedad se atendió en rampa remota. ",98
 17417,"Operación sin novedad se atendió en rampa remota. ",98
-17418,"Operación sin novedad se atendió en rampa remota. ",98
 17419,"Operación sin novedad. 
 Espacios en blanco es porque N/A",100
 17420,"Operación sin novedad se atendió en rampa remota. ",98
@@ -2356,7 +2356,6 @@ Espacios en blanco es porque N/A ",101
 19929,,21
 19930,,21
 19931,,21
-19933,"Se atendió posición 2 de combex. ",100
 19936,"Operacion Sin Novedad!!!
 Atendido Rampa 2 combex
 Espacios en blanco es porque N/A ",101
@@ -2372,9 +2371,6 @@ No utilizó planta eléctrica.",100
 Espacios en blanco es porque N/A ",101
 19959,"Operación sin novedad, utilizo planta eléctrica ",149
 19963,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
-19967,"Traslado de rampa norte a puerta 12 
-Inicio 14:30 final 14:40.
-Se uso la planta AT-324.",44
 19971,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
 19974,"Operación sin novedad se atendió en rampa 2 de combex ",87
 19977,"Operación sin novedad se atendió en rampa 02 de combexim. ",98
@@ -3166,39 +3162,130 @@ Recorre 60 minutos.",44
 23148,OS 7003,31
 23149,,35
 23180,,35
+23181,,49
+23182,,3
+23183,,35
 23184,,35
+23185,,35
+23186,,3
+23187,,3
 23188,,46
+23189,,3
+23190,,49
 23191,,46
+23192,,49
+23193,,49
 23194,,3
+23195,,22
+23196,,35
 23197,,3
+23198,"No se uso GPU por AC inoperativo ",4
+23199,,35
 23200,OS 7046,31
+23201,,49
+23202,,35
 23252,,22
+23253,,43
+23254,OS 7392,31
+23255,OS 7541,31
 23256,,22
+23257,,22
+23258,"No se uso GPU por AC inoperativo ",3
+23259,OS 7564,31
 23260,"No se uso GPU por AC inoperativo ",4
+23261,"No se uso GPU por AC inoperativo ",4
+23262,OS 7434,31
 23263,No se utilizo GPU,43
+23264,No se uso GPU por AC inoperativo,4
+23265,OS 7455,31
 23266,,22
+23267,,22
+23268,No se utilizo GPU,43
+23269,OS 7194,31
+23270,OS 7349,31
+23271,,22
 23272,No requiere de GPU por ACU inoperativo.,44
+23273,"No se uso GPU por AC inoperativo ",4
+23274,OS 7370,31
 23324,,3
+23325,"No se uso GPU por AC inoperativo ",4
+23326,,4
 23328,No requiere de GPU por ACU inoperativo.,44
+23330,"No se uso GPU por AC inoperativo ",4
 23332,No se utilizo GPU,43
+23333,,22
+23334,"No se uso GPU por AC inoperativo ",4
 23335,,22
+23336,,22
+23339,No se uso GPU por AC inoperativo,4
+23340,No se utilizo GPU,43
+23341,,22
+23342,"No se uso GPU por AC inoperativo ",4
+23343,,3
 23344,No se utilizo GPU,43
+23345,No se utiluzo GPU,43
+23346,,22
+23347,OS 7522,31
 23396,,22
+23397,"No se uso GPU por AC inoperativo ",4
+23398,"Se utilizo GPU por una hora 
+1735.6  /  1736.6",43
+23399,"27354.6  /  27355.6 
+Se utilizo GPU por una hora ",43
 23400,"AT-86 INICIAL 3701.6 FINAL 3702.6
 RECORRE 60 MINUTOS.",44
+23401,OS 7273,31
+23402,"3767.1  /  3768.1 
+Se utilizp GPU por 57 minutos ",43
+23403,"44 3801.6
+     3802.6",4
 23404,3706.1   /     37.07.1,43
+23405,,4
+23406,"44 2949.0
+      2950.0",4
 23407,"  44. 03709.4
          03710.4",4
+23408,,4
+23409,"44 2953.8
+     2954.8
+",4
 23410,"3687.6  -   3688.6 se utilizo GPU por una hora ",43
+23411,,4
+23412,"44 2956.8
+     2957.8",4
+23413,,22
+23414,"3576.6  /  3577.6 
+Se urlizo GPU por una hora ",43
+23415,,22
 23416,"44 3687.7
       3688.7",4
+23417,OS 7223,31
+23418,"3678.3  /  3679.3 
+Se utilizo GPU por una hora ",43
+23419,,22
 23468,,46
+23469,,35
+23470,,35
+23471,,49
 23472,,46
+23473,,46
+23474,,35
+23475,,35
 23476,,3
+23477,,3
+23478,,3
 23479,,3
+23480,,49
+23481,,3
 23482,,49
+23483,,3
+23484,,3
 23485,,49
+23486,,49
+23487,,3
 23488,,35
+23489,,35
+23490,,49
 23522,,44
 23523,,43
 23524,,22
@@ -3206,11 +3293,28 @@ RECORRE 60 MINUTOS.",44
 23526,,44
 23527,,4
 23564,,22
+23565,,43
+23566,,4
+23567,OS 7556,31
 23568,,44
+23569,,4
+23570,OS 7424,31
+23571,,31
 23572,,22
+23573,,31
+23574,,22
 23575,,22
+23576,,4
+23577,,22
 23578,,22
+23580,,43
+23581,,22
+23582,,43
+23583,,22
 23584,,44
+23585,,43
+23586,,22
+23587,,43
 23640,"Operacion sin novedad 
 
 No informaron peso entrando ni saliendo 
@@ -3218,49 +3322,113 @@ No informaron peso entrando ni saliendo
 23641,"Operación sin novedad 
 
 No Informaron peso entrando ni saliendo ",89
+23642,"Operación sin novedad se atendió en rampa 1 de combex ",87
+23643,"Operacion sin novedad 
+No informaron peso entrando ni saliendo ",89
 23674,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 23675,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
+23676,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+23677,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 23684,"El vuelo llego ferry
 Operación sin novedad
 Espacios en blanco es porque n /a",101
 23685,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23686,"Operación Sin Novedad
+Espacios en blanco es porque n /a",101
+23687,"Operación Sin Novedad
+El vuelo vino ferry!!
+Espacios en blanco es porque n /a",101
 23688,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 23689,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23690,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23691,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 23692,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23693,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23694,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23695,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 23762,Operación sin novedad. Espacios en blanco N/A.,100
 23763,"Operación sin novedad. Espacios en blanco N/A ",100
+23764,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+23765,Operación sin novedad. Espacios en blanco N/A.,100
+23766,Operación sin novedad. Espacios en blanco N/A.,100
 23772,"Vuelo sin novedad, no informaron peso de carga saliendo ",150
 23773,"Vuelo despacho sin novedad, no informaron peso de carga, si utilizo planta eléctrica ",150
+23774,"Vuelo despacho sin novedad, si utilizo planta eléctrica, no informaron peso carga ",150
+23775,"Operación sin novedad se atendió en rampa remota. ",98
 23776,Operación sin novedad. Espacios en blanco N/A.,100
+23777,Operación sin novedad. Espacios en blanco N/A,100
+23778,Operación sin novedad. Espacios en blanco N/A.,100
+23779,"Operación sin novedad. Espacios en blanco N/A. ",100
 23780,"Operación sin novedad. Espacios en blanco N/A ",100
+23781,"Operación sin novedad. Espacios en blanco N/A ",100
+23782,Operación sin novedad. Espacios en blanco N/A.,100
 23790,"Operacion sin novedad 
 
 No INFORMARON peso entrando ",89
 23791,"Operación sin novedad se atendió en rampa 1 de combex ",87
+23792,Operación sin novedad. Espacios en blanco N/A,100
+23793,"Operacion sin novedad 
+
+No informaron peso entrando ni saliendo ",89
 23806,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
 23807,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
+23808,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+23809,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
 23822,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex
 Vuelo extra",102
 23823,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+23824,"Operación sin novedad. Espacios en blanco N/A. ",100
+23825,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
 23834,"Operación sin novedad se atendió en rampa remota  ",98
 23835,Operación sin novedad se atendió en puerta 14,87
+23836,Operación sin novedad. Espacios en blanco N/A,100
+23837,Operación sin novedad. Espacios en blanco N/A,100
+23838,"Operación sin novedad se atendió en rampa remota. ",98
 23839,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
 23840,Operación sin novedad. Espacios en blanco N/A.,100
+23841,Operación sin novedad. Espacios en blanco N/A,100
+23842,Operación sin novedad. Espacios en blanco N/A,100
 23844,"Vuelo ingresó por su medio, no utilizo planta eléctrica, no informaron peso carga importación ",150
+23845,"Vuelo ingresó por su medio, no utilizo planta eléctrica ",150
+23846,"Operación sin novedad se atendió en rampa remota. ",98
 23847,Operación sin novedad. Espacios en blanco N/A.,100
+23848,Operación sin novedad. Espacios en blanco N/A,100
+23849,"Operación sin novedad. Espacios en blanco N/A ",100
 23851,Operación sin novedad. Espacios en blanco N/A.,100
+23852,Operación sin novedad. Espacios en blanco N/A,100
+23853,Operación sin novedad. Espacios en blanco N/A,100
+23854,Operación sin novedad. Espacios en blanco N/A.,100
+23862,"Vuelo ingresó por su medio, no utilizo planta eléctrica ",150
+23863,Operación sin novedad. Espacios en blanco N/A.,100
+23864,"Operación sin novedad. Entro por sus propios medios. ",100
 23886,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
 23887,"Operación sin novedad se atendió en rampa remota ",87
+23888,"Vuelo ingresó remolcado, utilizo planta eléctrica y neumáticas ",150
+23889,Operación sin novedad. Espacios en blanco N/A. Utilizo planta eléctrica y neumáticas.,100
+23890,Operación sin novedad. Espacios en blanco N/A,100
 23891,"Operación sin novedad se atendió en rampa remota ",87
+23892,Operación sin novedad. Espacios en blanco N/A.,100
+23893,Operación sin novedad. En el vuelo utilizó planta eléctrica y neumáticas. Espacios en blanco N/A.,100
+23989,"Operación sin novedad se atendió en rampa 01 se combexim. ",98
 24032,Operación sin novedad. Espacios en blanco N/A.,100
 24033,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
+24034,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+24035,,150
+24036,"Operación sin novedad se atendió en rampa 02 de combexim. ",98
 24052,"Operación sin novedad se atendió en rampa 01de combexim. ",98
 24053,Operación sin novedad. Espacios en blanco N/A.,100
+24054,"Vuelo despacho sin novedad, si utilizo planta eléctrica y neumáticas ",150
+24055,"Vuelo despacho sin novedad, no informaron peso de carga, si utilizo planta eléctrica ",150
+24056,"Operación sin novedad se atendió en 02 de combexim ",98
 24068,,2
 24070,"Operación Sin Novedad
 Espacios en blanco es porque n/a",101
@@ -3278,40 +3446,93 @@ Espacios en blanco es porque n/a",101
 24108,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
 24168,OS 6938,31
 24169,OS 7065,31
+24170,,3
+24171,,49
+24172,,3
 24173,,35
 24174,OS 7094,31
+24175,,49
+24176,,49
 24177,,35
 24178,,35
+24179,,22
+24180,,35
 24181,,46
 24182,,35
+24183,,35
+24184,,35
 24185,,3
 24186,,46
+24187,,35
+24188,,49
 24189,,3
+24190,,46
+24191,,49
+24192,,49
 24193,,3
+24194,,3
+24195,,3
+24196,,3
 24342,OS 6942,31
 24343,OS 7066,31
+24344,,3
+24345,,49
+24346,,3
 24347,,35
 24348,OS 7097,31
+24349,,49
+24350,,49
 24351,,35
 24352,,35
+24353,,49
+24354,,35
 24355,,46
 24356,,35
+24357,,35
+24358,,35
 24359,,3
 24360,,46
+24361,,35
 24363,,3
+24364,,46
+24365,,49
+24366,,49
 24367,,3
+24368,,3
+24369,,3
+24370,,3
 24518,,4
 24519,,44
+24520,,43
+24521,OS 7394,31
+24522,,43
 24523,,22
 24524,,22
+24525,,22
+24526,,43
+24527,,4
 24528,,43
 24529,,4
+24530,,4
+24531,,32
 24532,,32
 24533,,43
+24534,,32
+24535,,4
 24536,,43
 24537,,49
+24538,,43
+24539,,4
 24540,,32
+24541,,32
+24542,,43
+24543,,32
 24544,,4
+24545,,43
+24546,,43
+24547,,43
+24640,,49
+24646,,49
 24651,AT-86 INICIAL 3631.0 Final 3632.0,44
 24658,Operación sin novedad. Espacios en blanco N/A.   Avioneta extra.,100
 24662,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
@@ -3331,103 +3552,241 @@ VUELO CHARTER
 RAMPA 1",89
 24727,,46
 24728,,46
+24729,,49
+24730,,35
+24731,,49
 24732,,3
 24733,,46
+24734,,3
+24735,,3
 24736,OS 7010,31
 24737,,3
+24739,,3
 24740,,35
+24741,,49
+24742,,49
+24743,,49
 24813,,4
+24814,OS 7246,31
+24815,,43
+24816,,22
 24817,,43
 24818,,4
+24819,,43
+24820,,22
 24821,,22
 24822,OS 7174,31
+24824,,22
 24825,se uso la planta AT-326,44
+24826,,31
+24827,OS 7374,31
+24828,,22
 24927,,46
+24928,,35
+24929,,35
+24930,,49
 24931,,3
 24932,,46
+24934,,35
 24936,,3
 24937,,3
+24938,,35
+24939,,3
 24940,OS 6992,31
 24941,,3
+24942,,3
+24943,,3
 24944,OS 7011,31
 24945,,49
+24947,,3
 24948,,35
+24949,,49
+24950,,3
+24951,"3524.5  /   3525.8
+Se utilizo GPU por 1 hora con 15 minutos",43
 24952,,35
+24953,,35
+24954,,49
+24955,,49
 25074,"Se uso la planta AT-324 ",44
+25075,,43
+25076,,4
+25077,,22
 25078,,43
 25079,,22
+25080,,4
+25081,OS 7423,31
+25082,,43
 25083,,22
 25084,,22
+25085,,31
+25086,,22
 25087,"Se uso la planta AT-324 ",44
 25088,,43
+25089,,43
+25090,,22
 25091,,43
 25092,,22
+25093,"44 3742.5
+      3743.7",4
+25094,,22
 25095,,4
+25096,,43
+25097,OS 7356,31
+25098,,43
 25099,,43
+25100,,4
+25101,,22
+25102,,43
 25219,OS 6934,31
 25220,OS 7068,31
+25221,,3
+25222,,3
+25223,,35
 25224,OS 7087,31
+25225,,49
+25226,,3
+25227,,3
 25228,,35
 25229,,35
+25230,,49
+25231,,49
 25232,,46
 25233,,35
+25234,,35
+25235,,49
 25236,,46
 25237,,46
+25238,,35
+25239,,35
 25240,,3
 25241,,46
+25242,,49
+25243,,35
 25244,,3
+25245,,3
+25246,,35
+25247,,3
 25366,,22
 25367,,4
+25368,,4
+25370,,22
 25371,,4
 25372,,4
+25373,OS 7274,31
+25374,,43
+25375,,4
 25376,"44.    8042.2
          ",4
 25377,,4
+25379,,31
 25380,,43
 25381,,4
+25382,,22
+25383,,31
 25384,,22
 25385,OS 7175,31
+25386,,43
+25387,,4
 25388,"se uso la planta AT-213 ",44
+25389,,31
+25390,,22
+25391,,4
 25392,,43
+25393,,4
+25394,,43
+25395,,22
 25666,,4
 25667,,44
+25668,,31
+25669,,31
+25670,,43
 25671,,22
+25674,,4
+25675,,43
 25676,,43
 25677,,43
+25678,,4
+25679,,4
 25680,,22
 25681,,43
+25682,,43
+25683,,31
 25684,,43
 25685,,43
+25686,,60
+25687,,22
 25688,,43
+25689,,43
+25690,,31
+25691,"44.  2961.3
+        ",4
 25692,,4
+25693,,31
+25694,,31
+25695,,31
 25816,OS 6935,31
 25817,OS 7069,31
+25818,,3
+25819,,3
+25820,,35
 25821,,3
 25822,OS 7093,31
+25823,,49
+25824,,3
+25825,,3
 25826,,35
 25827,,35
+25828,,49
+25829,,49
 25830,,46
 25831,,35
+25832,,49
+25833,,49
 25834,,46
 25835,,46
+25837,,35
 25838,,3
+25839,,46
+25840,,3
+25841,,35
 25842,,3
+25843,,3
+25844,,35
+25845,,3
 25907,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
 25910,Vuelo salio ferry,150
 25923,,44
 25984,,35
 25985,,35
+25986,,49
+25987,,49
+25988,,3
 25989,,35
 25990,,35
+25991,,35
+25992,,49
+25993,,49
 25994,,46
 25995,,46
+25996,,35
+25997,,35
 25998,,3
 25999,,46
+26000,,49
+26001,,35
 26002,,3
 26003,,3
+26004,,49
+26005,,49
 26006,OS 7020,31
 26007,,3
+26008,,3
+26009,,49
 26010,OS 7050,31
+26011,,49
+26012,,3
+26013,,49
 26077,"El vuelo regreso a puerta sin cambio fisico por manto.
 Ase: 09:23.  Push: 14:14. Desp: 14:40",101
 26080,,34
@@ -3449,5 +3808,1197 @@ Espacios en blanco es porque n /a",101
 26134,"Vuelo ingresó remolcado, no utilizo planta eléctrica ",150
 26137,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
 26141,,40
+26143,,40
 26147,OS 7164,31
 26149,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26152,"Operacion sin novedad ",89
+26155,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26165,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+26168,OS 7265,31
+26171,Operación sin novedad. Espacios en blanco N/A.,100
+26175,"Estuvo en espera despues de cerrar puerta de las 11:34 a hasta las 13:20 que fue el pushback ",101
+26179,,3
+26184,,22
+26189,,3
+26193,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26199,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+26202,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26205,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+26208,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26210,OS 7458,31
+26216,"Operacion sin novedad 
+No informaron peso entrando ni saliendo 
+Avion entro por sus medios 
+",89
+26217,"Vuelo ingresó por su medio, no utilizo planta eléctrica, no informaron peso llegando ",150
+26218,"Operacion sin novedad 
+No informaron peso entrando 
+Solo saliendo ",89
+26219,"Operación sin novedad 
+No informaron peso entrando 
+Solo saliendo ",89
+26220,"Operación sin novedad 
+No informaron peso entrando 
+Solo saliendo ",89
+26236,"Operación sin novedad 
+No informaron peso entrando ni saliendo 
+
+Avión entro por sus medios 
+",89
+26237,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26238,"Operacion sin novedad 
+No informaron peso entrando 
+El vuelo entrobpor sus medios.",89
+26239,"Operación sin novedad se atendió en rampa 1 de combex ",87
+26240,"Operación sin novedad se atendió en rampa 1 de combex ",87
+26256,"Vuelo sin novedad todo bien se atendió en puerta 03 ",102
+26258,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26259,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26260,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+26275,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26277,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+26304,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26305,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+26306,"Operación sin novedad se atendió en rampa 01 de combexim ",98
+26307,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26308,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26309,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26310," Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26312,Operación sin novedad. Espacios de blanco N/A,100
+26313,Operación sin novedad. Espacios en blanco N/A,100
+26314,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26315,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+26316,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+26317,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26318,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26319,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26320,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26372,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26373,"Operación sin novedad se atendió en rampa remota. ",98
+26374,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26375,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26376,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26377,Operación sin novedad. Espacios en blanco N/A,100
+26379,Operación sin novedad. Espacios en blanco N/A,100
+26380,Operación sin novedad. Espacios en blanco N/A,100
+26381,Operación sin novedad. Espacios en blanco N/A.,100
+26382,Operación sin novedad. espacios en blanco N/A,100
+26383,Operación sin novedad en. Espacios en blanco N/A,100
+26384,Operación sin novedad. Espacios de blanco N/A,100
+26385,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26386,"Operación sin novedad se atendió en rampa 1 de combex ",87
+26387,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26388,Operación sin novedad se atendió en rampa 1 de combex,87
+26427,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26428,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+26429,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26430,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26443,Operación sin novedad. Espacios en blanco N/A.,100
+26444,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26445,Operación sin novedad.,100
+26446,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26455,"Operación sin novedad se atendió en rampa remota. ",98
+26456,"Operación  sin novedad se atendió en rampa 01 de combexim. ",98
+26457,"Operación sin novedad se atendió en rampa 02 de combexim. ",98
+26458,"Operación sin novedad se atendió en rampa remota. ",98
+26459,"Operación sin novedad se atendió en rampa remota. ",98
+26460,Operación sin novedad en. Espacios en blanco N/A.,100
+26461,"Operación sin novedad. Espacios en blanco N/A ",100
+26462,Operación sin novedad. Espacios en blanco N/A,100
+26463,Operación sin novedad. Espacios de blanco N/A,100
+26464,Operación sin novedad. Espacios en blanco N/A. El avión entro por sus propios medios.,100
+26465,"Operación sin novedad, el avión salió por sus propios medios. Espacios en blanco N/A",100
+26466,Operación sin novedad. Espacios en blanco N/A,100
+26467,Operación sin novedad. Espacios de blanco N/A,100
+26468,Operación sin novedad se atendió en rampa 14.,98
+26469,"Operación sin novedad se atendió en rampa remota  ",98
+26470,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26471,"Operación sin novedad se atendió en rampa remota. ",98
+26472,Operación sin novedad. Espacios en blanco N/A.,100
+26473,Operación sin novedad se atendió en 01 de combexim .,98
+26474,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26475,Operación sin novedad. Espacios en blanco N/A,100
+26476,"Operación sin novedad se atendió en rampa 01 de combexim ",98
+26481,Operación sin novedad. Entro por sus propios medios. Espacios en blanco N/A,100
+26482,Operación sin novedad. El avión entró por sus propios medios. Espacios en blanco N/A,100
+26483,"Operación sin novedad. El avión entro por sus propios medios, espacios en blanco N/A.",100
+26484,"Operación sin novedad, no utilizo planta eléctrica, ingresó por su medio ",150
+26494,"Operación sin novedad se atendió en rampa 02 de combexim. ",98
+26495,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26496,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26497,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26498,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+26509,Operación sin novedad. Utilizo planta eléctrica y neumáticas. Espacios en blanco N/A,100
+26510,Operación sin novedad. Se utilizó planta eléctrica y neumáticas.,100
+26511,Operación sin novedad.espacios en blanco N/A,100
+26512,Operación sin novedad. Espacios de blanco N/A,100
+26513,Operación sin novedad. Espacios en blanco N/A,100
+26514,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+26515,"Vuelo sin novedad, ingresó remolcado utilizo planta eléctrica y neumáticas ",150
+26516,"Operación sin novedad se atendió en rampa remota. ",98
+26539,,43
+26540,,22
+26541,OS 7629,31
+26542,,4
+26543,,4
+26615,,49
+26616,,49
+26617,,3
+26618,,3
+26619,,22
+26620,,49
+26621,,49
+26622,,49
+26623,,3
+26624,,35
+26625,,35
+26626,,49
+26627,,49
+26628,,44
+26629,,49
+26630,,35
+26631,,49
+26632,,44
+26633,,44
+26634,,35
+26635,,35
+26636,,3
+26637,,44
+26638,,22
+26639,,35
+26640,,3
+26641,,3
+26642,,22
+26643,,22
+26789,,49
+26790,,49
+26791,,3
+26792,,3
+26793,,22
+26794,,49
+26795,,49
+26796,,49
+26797,,3
+26798,,35
+26799,,35
+26800,,49
+26802,,44
+26803,,49
+26804,,35
+26805,,49
+26806,,44
+26807,,44
+26808,,35
+26809,,35
+26810,,3
+26811,,44
+26812,,22
+26813,,35
+26814,Servicio de potable y drenado: Kimberly De Leon,3
+26815,,3
+26816,,22
+26817,,22
+26963,,4
+26964,OS 7719,31
+26965,,46
+26966,At91 y at 174,46
+26967,,46
+26968,,4
+26969,,43
+26970,,46
+26971,OS 8011,31
+26972,,4
+26973,OS 7754,31
+26974,OS 7901,31
+26975,,4
+26976,,43
+26977,,4
+26978,,44
+26979,OS 8047,31
+26980,,4
+26981,,22
+26982,,49
+26983,,4
+26984,,43
+26985,,46
+26986,,46
+26988,,43
+26989,,22
+26990,,44
+26991,,4
+27081,,49
+27087,,49
+27093,,46
+27102,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+27106,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+27109,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+27135,Se uso la planta AT-324.,44
+27136,,35
+27137,,3
+27138,,3
+27139,,3
+27140,,22
+27141,,22
+27142,,49
+27143,,3
+27144,,3
+27145,,22
+27146,,3
+27195,,22
+27196,,31
+27197,,46
+27198,,43
+27199,,46
+27200,"Se uso la planta AT-306 ",44
+27201,,31
+27202,,22
+27203,,22
+27204,,4
+27205,,4
+27206,,4
+27292,,35
+27293,,35
+27294,,22
+27295,,49
+27296,,3
+27297,Se uso la planta AT-324.,44
+27298,,35
+27300,,49
+27301,,3
+27302,"AT-86 inicial 3815.0 final 3827.4
+Recorre 2 horas 24 minutos.",44
+27303,Se uso la planta AT-325.,44
+27304,,35
+27306,,3
+27307,,3
+27308,,35
+27309,,22
+27310,,35
+27311,"Mostrador: Miguel Grave
+Rayos X: Ubaldo Sarat
+
+",3
+27312,,3
+27313,,22
+27314,,22
+27315,,49
+27316,,3
+27317,,3
+27318,,22
+27319,,49
+27320,,49
+27321,,3
+27322,,3
+27443,,43
+27444,OS 7723,31
+27445,"Se uso la planta AT-325 ",44
+27446,,31
+27447,,4
+27448,,22
+27449,OS 7744,31
+27450,,46
+27451,"Se uso la planta AT-325.
+Se subieron 5 equipajes rush a oficinas.",44
+27452,,46
+27453,OS 7628,31
+27454,,22
+27455,,46
+27456,OS 8034,31
+27457,,4
+27458,,4
+27459,,4
+27460,,49
+27461,,4
+27462,,4
+27463,,46
+27464,OS 8069,31
+27465,OS 7686,31
+27467,,4
+27468,Se uso la planta AT-325.,44
+27469,,46
+27470,,44
+27471,Se uso la planta AT-325.,44
+27588,,3
+27589,,49
+27590,,22
+27591,,35
+27592,,49
+27593,,3
+27594,,3
+27595,,22
+27596,,22
+27597,,49
+27598,,49
+27599,,3
+27600,,3
+27601,,60
+27602,,35
+27603,,49
+27604,,49
+27605,,3
+27606,,35
+27607,,35
+27608,,49
+27609,,49
+27610,,44
+27611,,35
+27612,,49
+27613,"AT-306 INICIAL 3005.1 FINAL 3006.8
+RECORRE 1 HORA 48 MINUTOS.",44
+27614,,44
+27615,,35
+27616,,35
+27737,OS 7593,31
+27738,,43
+27739,,31
+27740,,31
+27741,,46
+27742,,31
+27743,,43
+27744,44.    2986.8,4
+27745,,31
+27746,Se uso la planta AT-213,44
+27747,,22
+27749,,49
+27750,,46
+27751,,31
+27752,,43
+27753,,4
+27754,,46
+27755,,46
+27756,,22
+27757,3858.7,4
+27758,Se uso la planta AT-325.,44
+27759,3103.3,4
+27760,,22
+27761,2979.7,4
+27762,,46
+27763,,31
+27764,OS 7706,31
+27765,Se uso la planta AT-306,44
+27766,,46
+27767,8161.4,4
+27892,,49
+27893,,3
+27894,,3
+27895,,3
+27896,,22
+27897,,35
+27898,,49
+27899,,49
+27900,,3
+27901,,3
+27902,,35
+27903,,35
+27904,,49
+27905,,49
+27906,,3
+27907,Se uso la planta AT-326.,44
+27909,,35
+27910,,49
+27911,Se uso la planta AT-326.,44
+27912,"AT-213 inical 8103.1 final 8104.4
+Recorre 1hora 24 minutos.",44
+27913,,35
+27914,,35
+27915,,3
+27916,,44
+27917,,35
+27918,,35
+27919,,3
+27920,,3
+27921,,22
+27922,,22
+28047,,4
+28048,OS 7726,31
+28049,,44
+28050,,31
+28051,8165.9,4
+28052,,4
+28053,,4
+28054,,46
+28055,"AT-213 INICIAL 8134.6 FINAL 8136.7
+Recorre 2 horas.",44
+28056,Se uso la planta AT-172,44
+28057,"44 3818.5 horometro inicial ",4
+28058,,22
+28059,,31
+28060,3091.7,4
+28061,"3928.2
+",4
+28062,,22
+28064,"AT-306 inicial 3055.0 ",44
+28065,,31
+28066,,22
+28067,,22
+28068,,31
+28069,,44
+28070,,31
+28071,,46
+28072,,4
+28073,Se uso la planta AT-325.,44
+28074,,22
+28076,,44
+28077,Se uso la planta AT-86.,44
+28202,,3
+28203,,3
+28204,,3
+28205,,3
+28206,,22
+28207,,35
+28208,,49
+28209,,49
+28210,,3
+28211,,3
+28212,,49
+28213,,35
+28214,,49
+28215,,49
+28216,,3
+28217,,35
+28219,,35
+28220,,3
+28221,,35
+28222,"AT-213 inical 8104.4 final 8105.6
+Recorre 1hora 18 minutos.",44
+28223,,35
+28224,,35
+28225,,3
+28226,Se uso la planta AT-325.,44
+28227,,35
+28228,,35
+28229,,3
+28230,,3
+28231,,22
+28232,,22
+28300,,3
+28301,,35
+28302,,49
+28303,,35
+28304,,35
+28315,,31
+28316,OS 7603,31
+28317,OS 7618,31
+28318,"No se uso GPU por AC inoperativo ",4
+28319,,22
+28328,"No Se Utilizo GPU ",43
+28329,,22
+28330,"No se uso GPU por AC inoperativo ",4
+28336,OS 7605,31
+28337,OS 7622,31
+28345,"44 3804.5
+     3805.5",4
+28346,"44.  3809.0
+        3810.0",4
+28347,"44 3817.5
+      3818.5",4
+28348,"3745.7    /    3746.7 
+Se utilizo GPU por una ",43
+28349,,43
+28356,Se Utilizo GPU por una hora,43
+28363,,35
+28364,"AT-86 inicial 3808.2 final 3808.9
+Recorre 48 minutos.",44
+28365,"AT-86 inicial 3814.0 final 3815.0 
+Recorre 60 minutos.",44
+28366,,3
+28367,,3
+28399,,3
+28400,,49
+28401,,22
+28402,,35
+28403,,46
+28404,,35
+28405,,22
+28406,,22
+28407,,49
+28408,,3
+28409,,3
+28410,,22
+28412,,49
+28413,,3
+28414,,35
+28415,,49
+28416,,49
+28417,,44
+28418,,35
+28419,,35
+28420,,49
+28421,,44
+28422,,22
+28423,,35
+28424,,35
+28483,,43
+28484,OS 7852,31
+28485,,46
+28486,Se suben 8 equipajes de 1er nivel al 4to nivel.,44
+28489,OS 7875,31
+28490,,46
+28491,Se sube 1 equipaje al 4to nivel.,44
+28493,"No se uso GPU por AC inoperativo ",4
+28494,OS 7900,31
+28495,,46
+28496,OS 8149,31
+28498,OS 7768,31
+28499,OS 7919,31
+28500,,46
+28502,"No se uso GPU por AC inoperativo ",4
+28503,,31
+28504,"Se subieron 15 equipajes RUSH al 4to nivel oficinas.
+No requiere de GPU por ACU inoperativo.",44
+28505,,31
+28506,"No se uso GPU por AC inoperativo ",4
+28507,,46
+28508,Se sube 4 equipajes al 4to nivel.,44
+28509,,22
+28510,OS 7833,31
+28511,,46
+28512,,44
+28576,,46
+28577,,46
+28578,,46
+28579,"AT-86 inical 3920.1 final 3921.3 recorre 72 minutos, se suben 12 equipajes del 1er nivel al 4to nivel.",44
+28582,OS 7885,31
+28583,OS 8014,31
+28584,Se uso la planta AT-86,44
+28587,OS 7902,31
+28588,"44.3900.8
+      3901.8",4
+28589,AT86=3927.1/3928.2,46
+28591,OS 7773,31
+28592,"AT-306 inicial 3054.0 final 3055.0
+Recorre 60 minutos.",44
+28593,OS 8050,31
+28595,,22
+28596,OS 7944,31
+28597,"Se uso la planta AT-86 inicial 3905.4 final 3906.4 recorre 60 minutos.
+Se suben 14 equipaje a oficinas 4to nivel.",44
+28598,"Se utilizo GPU 
+Por 1 hora con 37 minutos 
+Por IJP seguridad ",43
+28599,,46
+28600,,46
+28601,"3910.7
+3911.7",4
+28602,Se Utilizo G PU por una hora,43
+28603,OS 7840,31
+28604,,4
+28605,"3913.8
+3914.8",4
+28666,,46
+28667,,46
+28668,,46
+28670,OS 7745,31
+28671,OS 7887,31
+28672,,46
+28675,,46
+28678,OS 7776,31
+28679,,49
+28680,"3903.4
+3904.4",4
+28682,,46
+28683,,49
+28684,OS 8070,31
+28685,"3785.7   /   3786.7 
+Se Utiluzo GPU por una hora",43
+28686,,22
+28687,,46
+28688,"3911.7
+3912.7",4
+28689,,43
+28691,,4
+28692,,46
+28723,"AT-86 inicial 3921.5 final 3922.5 recorre 60 minutos, se suben 12 equipajes del 1er nivel al 4to nivel.",44
+28724,,46
+28728,,46
+28762,,49
+28763,,22
+28764,,49
+28765,,3
+28767,,35
+28768,,35
+28770,,49
+28772,"AT-86 inicial 3851.7 Final 3852.6
+Recorre 54 minutos.",44
+28773,,35
+28774,,35
+28775,,49
+28776,,3
+28778,,22
+28779,,35
+28780,,3
+28781,,3
+28782,,22
+28783,,22
+28784,,49
+28785,,3
+28786,,22
+28787,,22
+28788,,49
+28789,,49
+28790,,3
+28791,,3
+28855,,35
+28857,,22
+28858,,35
+28860,,3
+28861,,3
+28862,,22
+28863,,22
+28865,,49
+28866,,3
+28867,,3
+28871,,49
+28874,,35
+28875,,49
+28876,,49
+28877,"AT-306 INICIAL 2998.4 FINAL 2999.2
+Recorre 48 minutos.",44
+28878,,35
+28880,,49
+28881,"AT-172 inicio 2871.0 final 2871.8
+Recorre 50 minutos.",44
+28882,"AT-325 INICIAL 26648.4 FINAL 26649.2 
+Recorre 50 minutos.",44
+28883,,35
+28884,,35
+28916,"Operación sin novedad. Espacios en blanco N/A. Avioneta extra. ",100
+28917,"Operación sin novedad. Espacios en blanco N/A. Se detuvo la operación por una hora, por nueva distribución de cargado.",100
+28919,"Operación sin novedad. Espacios en blanco N/A ",100
+28923,,40
+28936,,35
+28937,,3
+28938,,3
+28939,,22
+28940,,22
+28941,,35
+28942,,35
+28943,,49
+28944,,49
+28973,OS 7542,31
+28975,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+28977,OS 7565,31
+28979,"Operación sin novedad se atendió en rampa 2 de combex ",87
+28986,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+28992,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+28997,"En la operación todo bien solo tuvimos  una demora por cambio de distribución ",102
+29000,Operación sin novedad. Utilizo planta eléctrica y neumáticas. Espacios en blanco N/A.,100
+29003,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+29006,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+29009,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29012,Operación sin novedad. Espacios en blanco N/A.,100
+29015,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+29018,,46
+29021,"Vuelo ingresó remolcado, no utilizo planta eléctrica ",150
+29025,Vuelo extra por la cancelación del vuelo 391 de fecha 10 de octubre.,44
+29029,"No se uso GPU por AC inoperativo
+1027 demorado por clima 10/10/22",4
+29032,OS 7765,31
+29038,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+29063,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29064,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29065,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29068,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29069,Operación sin novedad. Espacios en blanco N/A,100
+29070,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+29072,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29202,Operación sin novedad. Espacios de blanco N/A,100
+29203,Operación sin novedad. Espacios en blanco N/A,100
+29204,Operación sin novedad. Espacios en blanco N/A,100
+29207,"Vuelo despacho sin novedad, no utilizo planta eléctrica, no informaron peso saliendo.",150
+29208,Operación sin novedad. Espacios en blanco N/A,100
+29209,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29212,Operación sin novedad se atendió en rampa 1 de combex,87
+29213,Operación sin novedad. Espacios en blanco N/A.,100
+29214,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+29216,"Operación sin novedad se atendió en rampa 01de combexim ",98
+29217,Operación sin novedad se atendió en rampa 02 de combexim.,98
+29260,"Operación Sin Novedad
+Espacios en blanco es por que n/a",101
+29261,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+29262,"Operación sin novedad se atendió en rampa 1 de combex ",87
+29276,"Operación sin novedad. Espacios en blanco N/A. Hoy vino vuelo pequeño, B 757-200",100
+29277,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+29278,"Operación sin novedad se atendió en rampa 1 de combex ",87
+29292,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29293,"Operación sin novedad No informaron peso entrando Solo saliendo ",89
+29294,Operación sin novedad. Espacios en blanco N/A,100
+29308,"Operación sin novedad No informaron peso entrando 
+Solo saliendo ",89
+29309,"Operación sin novedad 
+No informaron peso entrando 
+Solo saliendo ",89
+29310,Operación sin novedad. Espacios en blanco N/A,100
+29324,"Vuelo sin novedad todo bien se atendió puerta 03 ",102
+29325,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29326,Operación sin novedad se atendió en rampa 04.,98
+29341,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+29342,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+29343,Operación sin novedad. Espacios en blanco N/A,100
+29356,"Operación sin novedad ",100
+29357,Operación sin novedad. Espacios en blanco N/A,100
+29361,Operación sin novedad. Espacios de blanco N/A,100
+29362,Operación sin novedad. Espacios de blanco N/A,100
+29363,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29366,Operación sin novedad. Espacios en blanco N/A,100
+29367,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+29368,Operación sin novedad se atendió en rampa 14.,98
+29370,Operación sin novedad. Espacios de blanco N/A. Entro por sus propios medios.,100
+29371,"Operación sin novedad. Espacios en blanco N/A. Entro por sus medios ",100
+29372,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+29374,"Operación sin novedad se atendió en rampa 02 de combexim. ",98
+29375,"Operación sin novedad se atendió en rampa 01 de combexim ",98
+29384,Operación sin novedad. Espacios en blanco N/A,100
+29394,Operación sin novedad. Espacios en blanco N/A. No utilizó planta eléctrica.,100
+29395,"Operación sin novedad se atendió en rampa 01 de combexim ",98
+29396,"Operación sin novedad se atendió en 01 de combexim. ",98
+29406,"Vuelo ingresó remolcado, si utilizo planta eléctrica y neumáticas, operación sin novedad.",150
+29407,Operación sin novedad. Espacios en blanco N/A,100
+29408,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+29411,Operación sin novedad. Espacios de blanco N/A,100
+29412,Operación sin novedad. Espacios en blanco N/A . Se utilizó planta eléctrica y neumáticas.,100
+29413,"Operación sin novedad se atendió en rampa remota. ",98
+29442,,3
+29443,,3
+29444,,3
+29447,,4
+29448,,35
+29449,,49
+29480,,3
+29481,,3
+29486,"No se uso GPU por AC inoperativo ",4
+29487,,46
+29492,,46
+29493,,46
+29498,"3036.3
+3037.3",4
+29499,OS 8202,31
+29504,,35
+29505,,35
+29510,,3
+29511,,3
+29515,No se utilizo GPU,43
+29521,"No se uso GPU por AC inoperativo ",4
+29524,AT-172 inicial 3053.1 final 3054.1 recorre 60 minutos se suben 10 equipajes del 1er nivel al 4to nivel.,44
+29527,,49
+29530,,22
+29534,,49
+29535,"Se autilizo GPU por 45 minutos ",43
+29540,,49
+29541,,35
+29546,,43
+29547,No se utilizo GPU,43
+29552,"AT-172 inical 3059.8 final 3060.8 recorre 60 minutos, se suben 8 equipajes de 1er nivel al 4to nivel oficinas.",44
+29553,,46
+29558,,22
+29559,,3
+29587,,49
+29588,,3
+29591,,46
+29592,,44
+29595,OS 8351,31
+29596,,3
+29598,OS 8366,31
+29599,,46
+29601,No se utilizo GPU,43
+29602,OS 8546,31
+29604,,3
+29605,,22
+29606,OS 8571,31
+29608,,22
+29609,,43
+29610,,22
+29662,,49
+29663,,3
+29666,,3
+29667,,3
+29670,OS 8352,31
+29671,,46
+29673,OS 83:67,31
+29674,,3
+29676,,35
+29677,,31
+29679,,3
+29680,"No se uso GPU por AC inoperativo ",4
+29681,,43
+29683,,49
+29684,"No se uso GPU por AC inoperativo ",4
+29733,,44
+29734,Se subieron 8 equipajes del 1er nivel al 4to nivel.,44
+29737,OS 8331,31
+29738,,44
+29741,,46
+29742,OS 8501,31
+29744,"No se uso GPU por AC inoperativo ",4
+29745,,31
+29747,OS 8387,31
+29748,"No se uso GPU por AC inoperativo ",4
+29750,,46
+29751,,44
+29779,"No se uso GPU por AC inoperativo ",4
+29780,,44
+29781,"No se uso GPU por AC inoperativo ",4
+29812,,46
+29813,,46
+29816,OS 8340,31
+29817,,46
+29820,,46
+29821,,31
+29823,"8224.7
+8225.7",4
+29824,"3134.9
+3135.9",4
+29826,"Se uso la planta AT-172, se subió 4 equipajes del 1er nivel al 4to nivel, se limpian los winshield.",44
+29827,"3153.7
+3154.7",4
+29829,AT-incial 8193.8 final 8194.8 recorre 60 minutos se suben 8 equipajes del 1er nivel al 4to nivel.,44
+29830,Se uso la planta AT172.,44
+29831,Se uso la planta AT-213.,44
+29833,Se uso la planta AT-86 de subieron 8 equipajes del 1er nivel al 4to nivel.,44
+29834,"Se uso la planta AT-213, se suben 33 equipaje del 1er nivel al 4to nivel.",44
+29887,,49
+29888,,49
+29891,,35
+29892,,49
+29895,,35
+29896,,43
+29898,,22
+29899,,43
+29901,,22
+29902,,43
+29904,,3
+29905,,3
+29908,,49
+29909,,3
+29910,,22
+29938,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+29941,"Operación sin novedad se atendió en rampa 1 de combex ",87
+29953,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29959,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+29966,OS 7850,31
+29969,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+29972,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+29975,"Operación sin novedad se atendió en rampa 1 de combex ",87
+29981,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+29987,"Operación sin novedad se atendió en rampa 1 de combex ",87
+29996,"Operacion sin novedad ",150
+30003,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+30006,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+30009,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+30015,"Operación sin novedad. ",100
+30018,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+30021,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+30027,Operación sin novedad. Espacios de blanco N/A,100
+30030,"Vuelo extra, solo trajo 6 pos impo y no llevo nada de expo!!
+Vuelo sin novedad!! ",101
+30032,"Vuelo sin novedad todo bien se atendió en rampa central de combex ",102
+30097,,35
+30098,,3
+30099,,49
+30102,,35
+30103,,35
+30104,,49
+30107,,22
+30108,,35
+30109,,43
+30111,,22
+30112,,22
+30113,,43
+30115,,3
+30116,,22
+30119,,22
+30120,,3
+30121,,32
+30123,,49
+30124,,3
+30277,,35
+30278,,3
+30279,,49
+30282,,35
+30283,,35
+30284,,49
+30287,,22
+30288,,35
+30289,,43
+30291,,22
+30292,,22
+30293,,43
+30295,,3
+30296,,22
+30299,,22
+30300,,3
+30301,,32
+30303,,3
+30304,,46
+30457,OS 8177,31
+30458,,46
+30459,,46
+30462,,4
+30463,,44
+30464,,46
+30467,,44
+30468,,4
+30469,,4
+30471,,4
+30472,,44
+30473,,4
+30475,,44
+30476,,4
+30477,Se sube 1 equipaje del 1er nivel al 3er nivel.,44
+30479,,44
+30480,,46
+30481,,44
+30483,,44
+30484,,4
+30609,,49
+30610,,49
+30611,,22
+30614,,49
+30616,,49
+30618,,35
+30619,,35
+30622,,3
+30623,,43
+30689,OS 8198,31
+30690,OS 8341,31
+30691,OS 8481,31
+30694,OS 8212,31
+30695,,46
+30696,,46
+30698,OS 8239,31
+30699,OS 8371,31
+30700,,31
+30702,OS 8296,31
+30703,,44
+30795,,49
+30796,,22
+30797,,22
+30800,,49
+30801,,49
+30802,,22
+30805,,35
+30806,,49
+30807,,49
+30809,,35
+30810,,35
+30813,,22
+30814,,49
+30815,,22
+30817,,35
+30818,,43
+30819,,31
+30884,,4
+30943,OS 8321,31
+30944,OS 8461,31
+30947,"Se uso la planta AT-325 ",44
+30948,,31
+30951,,31
+30952,,4
+30953,,4
+30955,8185.9,4
+30956,,44
+30957,,31
+30959,8190.4,4
+30960,,4
+30961,,44
+30963,,43
+30964,,46
+30965,,4
+30967,,31
+30968,,46
+31085,,3
+31086,,22
+31087,,22
+31090,,3
+31091,,3
+31092,,22
+31095,,3
+31096,,3
+31098,,49
+31099,,49
+31100,,3
+31102,,35
+31103,,49
+31104,,22
+31106,,35
+31107,,35
+31108,,49
+31110,,22
+31111,,43
+31112,,43
+31232,,46
+31233,,46
+31234,,46
+31237,,46
+31238,"Se utilizo GPU Por 2 horas ",43
+31239,,46
+31242,Se uso la planta AT-172,44
+31243,,51
+31244,,31
+31246,Se uso la planta AT-86,44
+31248,,31
+31250,,46
+31251,Se uso la planta AT-172,44
+31252,8268.0,4
+31254,Se uso la planta AT-172.,44
+31255,Se uso la planta AT-172,44
+31256,,4
+31258,,46
+31259,Se uso la planta AT-213.,44
+31382,,49
+31383,,3
+31384,,3
+31387,,49
+31388,,49
+31389,,3
+31392,,43
+31393,,31
+31394,,49
+31396,,35
+31397,,35
+31398,,49
+31400,,22
+31402,,43
+31404,,22
+31405,,43
+31406,,43
+31408,,3
+31409,,22
+31410,,22
+31532,,31
+31533,,31
+31534,OS 8463,31
+31537,"3045.1
+",4
+31538,Se uso la planta AT-172.,44
+31539,,31
+31542,,31
+31543,,4
+31544,8259.9,4
+31546,3060.8,4
+31547,,44
+31548,3149.2,4
+31550,Se uso la planta AT-172,44
+31551,8227.1,4
+31552,Se uso la planta AT-306.,44
+31554,,43
+31555,,46
+31556,"Se uso la planta AT-213, se subieron 13 equipajes del 1er nivel al 3er nivel.",44
+31558,,31
+31559,,46
+31682,,49
+31683,,22
+31684,,22
+31687,,49
+31688,,3
+31689,,22
+31692,,35
+31694,,3
+31696,,49
+31697,,49
+31698,,3
+31700,,35
+31701,,35
+31702,,22
+31704,,35
+31705,,22
+31706,,49
+31708,,22
+31709,,43
+31710,,43
+31773,"Operación Sin Novedad
+Espacios en blanco es porque n /a",101
+31776,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+31779,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+31793,No se utiluzo GPU,43
+31794,,49
+31795,,3
+31823,,49
+31827,,46
+31832,OS 8155,31
+31838,,49
+31843,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31846,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31849,"Operación sin novedad se atendió en rampa  2 de combex ",87
+31852,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31861,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex vuelo solo trajo carga importación ",102
+31867,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+31870,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+31876,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+31878,"Operación sin novedad se atendió en rampa remota. ",98
+31880,"Operación sin novedad 
+",89
+31899,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31900,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+31903,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31904,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+31907,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31908,"Vuelo sin novedad todo bien se atendió en rampa remota norte ",102
+31913,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+31914,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+31920,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31921,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31933,"Operación sin novedad. Espacios en blanco N/A.  ",100
+31935,Operación sin novedad. Espacios de blanco N/A,100
+31938,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+31941,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+31949,"Vuelo sin novedad todo bien en la operación se atendió en rampa 01 de combex ",102
+31951,"Operación sin novedad se atendió en rampa remota. ",98
+31952,Operación sin novedad. Espacios en blanco N/A. Entro por su medio.,100
+31957,"Operación sin novedad se atendió en rampa remota. ",98
+31960,Operación sin novedad. Espacios en blanco N/A,100
+31963,"Operación Sin Novedad
+Espacios en blanco es porque n / a",101
+31968,"Vuelo sin novedad, ingresó por su medio, no utilizo planta eléctrica ",150
+31977,,3
+31984,Operación sin novedad. Espacios en blanco N/A,100
+31997,Operación sin novedad. Espacios en blanco N/A.,100
+32001,,43
+32006,"Operación Sin Novedad
+Espacios en blanco es porque n/a",101
+32007,"Operación sin novedad se atendió en 01 de combexim. ",98
+32013,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+32016,"Vuelo sin novedad todo bien se atendió en rampa 02 de combex ",102
+32019,"Operación sin novedad, ingresó remolcado, si utilizo planta eléctrica y neumáticas.",150
+32022,"Vuelo sin novedad todo bien se atendió en rampa 01 de combex ",102
+32025,"El vuelo se le dio pushback a las 11:00
+Y regreso a puerta sin cambio fisico por manto dandole pushback a las 16:30.",101
+32028,"Operación sin novedad se atendió en rampa 01 de combexim. ",98
+32030,"Operación sin novedad. Espacios en blanco N/A. Se remolcó de rampa Combex, hacia el hangar DHL.",100
+32032,"Operación sin novedad. Espacios en blanco N/A ",100
+32035,"Se atendió en rampa 2 combex, ingreso remolcado, no utilizo planta eléctrica.  
+Vuelo sin novedad.",150
